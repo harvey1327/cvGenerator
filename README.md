@@ -13,4 +13,6 @@ Use from command line, put your resume.json in /tmp/resume/ and file will be gen
 		-v /tmp/.X11-unix:/tmp/.X11-unix \
 		nouchka/hackmyresume
 		
-resume.json format is based on https://github.com/fresh-standard/FRESCA and https://jsonresume.org/schema/
+Format for resume.json is based on https://github.com/fresh-standard/FRESCA and https://jsonresume.org/schema/
+
+Themes can be taken from https://github.com/fresh-standard/fresh-themes and https://www.npmjs.com/search?q=jsonresume-theme
