@@ -1,0 +1,173 @@
+{
+  "basics": {
+    "name": "Harvey Bal",
+    "label": "Developer of Everything",
+    "summary": "**Web developer with 9+ years industry experience** specializing in ecommerce and system architecture. 33 years old.",
+    "website": "https://www.katagena.com/",
+    "phone": "0123456789",
+    "email": "harvey_bal@hotmail.co.uk",
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "nouchka",
+        "url": "https://github.com/nouchka",
+        "iconClass": "fa fa-github-square"
+      },
+      {
+        "network": "Linkedin",
+        "username": "japromis",
+        "url": "https://fr.linkedin.com/in/japromis",
+        "iconClass": "fa fa-linkedin-square"
+      }
+    ]
+  },
+  "work": [{
+      "company": "Ninja Labs",
+      "position": "Co-founder",
+      "startDate": "2016-02",
+      "endDate": "present",
+      "summary": "System architect of a Symfony project with a Docker Swarm cluster, continuous integration with unit and loading testing.",
+      "highlights": [
+        "Architecture as code with Ansible"
+      ]
+    },
+    {
+      "company": "Smile Sud-Ouest",
+      "website": "http://www.smile.fr/",
+      "position": "Technical lead",
+      "startDate": "2010-09",
+      "summary": "Worked as magento developer and technical lead for new e-commerce project or for support. As project manager I was in charge of the communication between Smile and clients, I planned deliveries, developments, managed dev team, advised clients. As developer I designed store locator, renting system, SEO plan, graphic upgrade, Back Office extension, etc... Technical environment: Magento, Solr, ElasticSearch, MongoDB, Percona, Redis, load-balanced servers. Accounts: Krys, Le comptoir santé (Cdiscount), Cultura, Chantelle, Chantelle US, Comtesse du Barry, Cityvision, Vertsloisirs, Darjeeling, etc...",
+      "highlights": [
+        "Managed a 5-person development team",
+        "Worked in one of the top french e-commerce company (Cdiscount)",
+        "Designed new features on a 10+ millions products magento"
+      ]
+    },
+    {
+      "company": "Smile Paris",
+      "website": "http://www.smile.fr/",
+      "position": "Developer and Technical manager",
+      "startDate": "2007-03",
+      "endDate": "2010-09",
+      "summary": "Worked as Java and Dotnet developer to design corporate websites. I designed new screens, created contribution workflows, data feeds import, etc... Technical environment: Jahia, J2EE, LDAP, SSO. Accounts: Notaires de France (Real estate), Gallimard (Book editor), Bureau Veritas (Certification), BNP (Banking), AG2R (Insurance), Sanef (Highway), Aprionis (Pension fund), Lyonnaise des eaux (Water supply), etc...",
+      "highlights": [
+        "Developped an live auction for real estate.",
+        "First technical lead on a project."
+      ]
+    },
+    {
+      "company": "Business en ligne",
+      "website": "http://www.businessenligne.fr/",
+      "position": "Developer",
+      "startDate": "2006-04",
+      "endDate": "2006-08",
+      "summary": "PHP developer. Created an online training platform."
+    },
+    {
+      "company": "Butler Gallery",
+      "website": "http://www.butlergallery.com/",
+      "position": "Developer",
+      "startDate": "2005-07",
+      "endDate": "2005-08",
+      "summary": "PHP developer. Created a CMS like website for an art gallery in Ireland.",
+      "highlights": [
+        "Helped setting up new Exhibitions."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "ESIGETEL, École supérieure d'ingénieurs en informatique et génie des télécommunications",
+      "area": "SIR",
+      "startDate": "2004-11",
+      "endDate": "2007-02",
+      "studyType": "Engineer school"
+    },
+    {
+      "institution": "University of Marne la vallée",
+      "area": "Mathematics",
+      "startDate": "2004-10",
+      "endDate": "2005-06",
+      "studyType": "University"
+    },
+    {
+      "institution": "Lycée Jean Dautet, La Rochelle",
+      "area": "MPSI / PSI",
+      "startDate": "2001-09",
+      "endDate": "2004-06",
+      "studyType": "CPGE"
+    },
+    {
+      "institution": "Lycée Jean Macé",
+      "area": "Scientific",
+      "startDate": "1998-09",
+      "endDate": "2001-06",
+      "studyType": "High school"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Framework",
+      "keywords": [
+        "Symfony2",
+        "jQuery",
+        "Zend",
+        "Struts",
+        "AngularJS"
+      ]
+    },
+    {
+      "name": "System",
+      "keywords": [
+        "Docker",
+        "Ansible",
+        "Linux",
+        "Continuous Integration",
+        "Debian"
+      ]
+    },
+    {
+      "name": "Softwares",
+      "keywords": [
+        "Magento",
+        "Jahia",
+        "Akeneo"
+      ]
+    },
+    {
+      "name": "Langages",
+      "keywords": [
+        "PHP",
+        "Javascript",
+        "JAVA",
+        ".net"
+      ]
+    }
+  ],
+  "interests": [
+    {
+      "name": "Travel",
+      "summary": "",
+      "keywords": [
+        "Japan",
+        "Sweden"
+      ]
+    },
+    {
+      "name": "Sustainable development/Permaculture"
+    },
+    {
+      "name": "Rugby",
+      "summary": ""
+    },
+    {
+      "name": "Live concert"
+    },
+    {
+      "name": "Architecture"
+    },
+    {
+      "name": "Museum/Art"
+    }
+  ]
+}
