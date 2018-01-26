@@ -4,7 +4,7 @@
 python ./src/python/yml2json.py -i ./resume/resume.yml -o ./resume/resume.json
 
 #Run Docker Command 
-docker run -e 'OUTPUT_TEMPLATE=kendall' \
+docker run -e 'OUTPUT_TEMPLATE=positive' \
 		-e 'PHONE=0123456789' \
 		-e 'EMAIL=email@email.com' \
 		-e 'ADDRESS=myAddress' \
