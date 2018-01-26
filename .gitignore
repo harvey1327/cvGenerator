@@ -1,2 +1,3 @@
 resume/*
 !resume/resume.json
+!resume/resume.yml
