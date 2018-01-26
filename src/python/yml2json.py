@@ -10,7 +10,7 @@ def loadYaml(path):
 	return yaml.load(file)
 
 def convertToJson(yamlData):
-	return json.dumps(yamlData)
+	return json.dumps(yamlData, indent=4, sort_keys=True)
 
 def writeToDisk(outputFile, jsonData):
 	file = open(outputFile, 'w')
