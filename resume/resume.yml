@@ -1,9 +1,13 @@
 
 name: 'Harvey Bal'
 
+meta:
+  format: 'FRESH@0.6.0'
+  version: '0.1'
+
 info:
   label: 'Software Engineer'
-  brief: '<p>An articulate and analytical Software Engineer who has been able to adapt to working in different areas without compromising performance. I have worked on a variety of projects from simple to complex while working towards a tight deadline in an agile manner.</p><p>Within my roles I have analysed, developed, tested and deployed onto different systems within a continuous integration environment. In addition to this I have ran user acceptance testing for any customer facing clients.</p><p>During my years I have proven my communication skills by effectively communicating with both the business and technical sides. I have shown to have strong technical skills while performing as a server-side Java Developer and a willingness to learn new ones.</p>'
+  brief: '<p>An articulate and analytical Software Engineer who has been able to adapt to working in different areas without compromising performance. I have worked on a variety of projects from simple to complex while working towards a tight deadline in an agile manner. Within my roles I have analysed, developed, tested and deployed onto different systems within a continuous integration environment. In addition to this I have ran user acceptance testing for any customer facing clients. During my years I have proven my communication skills by effectively communicating with both the business and technical sides. I have shown to have strong technical skills while performing as a server-side Java Developer and a willingness to learn new ones.</p>'
 
 contact:
   phone: '###PHONE###'
@@ -33,13 +37,11 @@ employment:
       employer: 'Home Office'
       position: 'DevOps Engineer'
       start: 2017-06
-      end: present
       summary: 'Currently I am placed within the Home Office as a Devops Engineer as a consultant by Capgemini, my primary focus is to migrate the current infrastructure to AWS and improve upon the release cycle. The underpinning idea behind all this is to have the infrastructure as code and be able to bring it up/down with automation. With having minimal exposure to infrastructure, I have been able to pick up the tech stack quickly and effectivly and have provided a major contribution to the project by re-implementing the Jenkins jobs as pipelines written in groovy.'
     -
       employer: Cepgemini
       position: 'IT Consultant'
       start: 2017-01
-      end: present
       summary: '<p>While at Capgemini I was part of an agile team within the Applied Innovation Exchange (AIE), my role was to develop a proof of concept based on emerging tech to demo in front of clients. During the sprints I was able to demonstrate my knowledge and technical skills for developing new software by picking up new technology and hitting the ground the running.</p><p>My first project was to develop a feedback system utilising Intel''s depth sensing camera which allows a user to provide positive or negative feedback based on hand recognition. The use of this was based on the need to provide a quick and easy way for a business to gauge feedback from their customers or employees. The application was built using Core Java, Java Swing and Maven on top of Intel''s SDK which provided the Dynamically Linked Libraries for the camera.</p><p>Another project I was part of was to create an IoT car which is able to send an event as a response for when it crashes. The case behind this was to have a proof of concept of utilising IoT devices to send useful data. The hardware consisted of a sensor integrated with a Raspberry Pi and placed within a remote controlled car. Using Python and Node-Red I was able to send live sensor data to IBMs Watson IoT platform to visualise the live data feed. By fitting an algorithmic model to the sensor data my team were able to recognise a crash and send a notification to a REST API.</p><p>On my final project I lead a team to develop a biometrics check-in system as part of a web app, the system was able to recognise a person''s face and log them into the system. This was possible using Microsoft Cognitive Services for the algorithmic detection and interpreting the data returned. As this was a Greenfield project, I believed it would be best to challenge ourselves and use ReactJS</p>'
     -
       employer: 'British Airways'
@@ -61,6 +63,8 @@ employment:
       summary: 'I have worked as a Client Data Manager for a telefundraising company called Listen Ltd. I was in charge of setting up various campaigns for different clients and maintaining their integrity. I would produce ad-hoc queries and analysis when necessary and ensure a smooth running of the campaign'
 
 education:
+  level: degree
+  degree: 'BSc(Hons)'
   history:
     -
       institution: 'University of Brighton'
@@ -88,9 +92,11 @@ skills:
         - Spring
         - SpringBoot
         - ReactJS
+        - JUnit
     -
       name: 'Build Tools'
       skills:
+        - Ant
         - Maven
         - Gradle
     -
@@ -105,7 +111,7 @@ skills:
         - Docker
         - Ansible
         - Linux
-        - 'Continuous Integration'
+        - 'CI/CD Pipelines'
         - Kubernetes
         - Vagrant
     -
@@ -113,6 +119,8 @@ skills:
       skills:
         - Java
         - Groovy
+        - Bash
+        - SQL
         - Python
         - Javascript
 
