@@ -6,14 +6,14 @@ info:
   brief: '<p>An articulate and analytical Software Engineer who has been able to adapt to working in different areas without compromising performance. I have worked on a variety of projects from simple to complex while working towards a tight deadline in an agile manner.</p><p>Within my roles I have analysed, developed, tested and deployed onto different systems within a continuous integration environment. In addition to this I have ran user acceptance testing for any customer facing clients.</p><p>During my years I have proven my communication skills by effectively communicating with both the business and technical sides. I have shown to have strong technical skills while performing as a server-side Java Developer and a willingness to learn new ones.</p>'
 
 contact:
-  phone: '0123456789'
-  email: harvey_bal@hotmail.co.uk
+  phone: '###PHONE###'
+  email: '###EMAIL###'
 
 location:
-  address: 'myAddress'
-  city: 'myCity'
-  code: 'myCode'
-  country: 'myCountry'
+  address: '###ADDRESS###'
+  city: '###CITY###'
+  code: '###CODE###'
+  country: 'UK'
 
 social:
   -

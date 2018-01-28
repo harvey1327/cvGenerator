@@ -8,6 +8,8 @@ docker run -e 'OUTPUT_TEMPLATE=positive' \
 		-e 'PHONE=0123456789' \
 		-e 'EMAIL=email@email.com' \
 		-e 'ADDRESS=myAddress' \
+		-e 'CITY=City' \
+		-e 'CODE=Code' \
 		-e 'DISPLAY=unix$DISPLAY' \
 		-v $(pwd)/resume/:/usr/share/nginx/html/ \
 		-v /tmp/.X11-unix:/tmp/.X11-unix \
