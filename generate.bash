@@ -15,7 +15,7 @@ done
 python ./src/python/yml2json.py -i ./resume/resume.yml -o ./resume/resume.json
 
 #Run Docker Command 
-docker run -e 'OUTPUT_TEMPLATE=positive' \
+docker run -e 'OUTPUT_TEMPLATE=cora' \
                -e "PHONE=${PHONE}" \
                -e "EMAIL=${EMAIL}" \
                -e 'ADDRESS=myAddress' \
