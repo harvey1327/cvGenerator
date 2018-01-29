@@ -23,8 +23,12 @@ done
 #Convert YAML to JSON
 python ./src/python/yml2json.py -i ./resume/resume.yml -o ./resume/resume.json
 
-#Build Docker Image
-#docker build ./src/docker/Dockerfile -t personalresume
+#Build Docker Image if non-existant
+
+EXIST=$(docker images -q resume:latest)
+if [ -z $EXIST ]; then
+	docker build ./src/docker/ -t resume:latest
+fi
 
 #Run Docker Command 
 docker run -e 'OUTPUT_TEMPLATE=cora' \
@@ -36,4 +40,4 @@ docker run -e 'OUTPUT_TEMPLATE=cora' \
                -e 'DISPLAY=unix$DISPLAY' \
                -v $(pwd)/resume/:/usr/share/nginx/html/ \
                -v /tmp/.X11-unix:/tmp/.X11-unix \
-               personalresume
+               resume:latest
