@@ -68,13 +68,13 @@ education:
   history:
     -
       institution: 'University of Brighton'
-      title: 'Bsc(Hons) Mathematics and Computer Science'
+      area: 'Bsc(Hons) Mathematics and Computer Science'
       studyType: Degree
       start: 2010-09
       end: 2013-07
     -
       institution: 'Windsor Boys School'
-      title: 'Physics, Mathematics, Further Mathematics, Design Technology'
+      area: 'Physics, Mathematics, Further Mathematics, Design Technology'
       studyType: A-Level
       start: 2008-09
       end: 2010-06
@@ -114,6 +114,7 @@ skills:
         - 'CI/CD Pipelines'
         - Kubernetes
         - Vagrant
+        - Git
     -
       name: Langages
       skills:
