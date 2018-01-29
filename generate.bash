@@ -1,6 +1,6 @@
 #!/bin/bash
 
-while getopts ":p:e:a:c:z:" arg; do
+while getopts ":p:e:r:c:" arg; do
 	case "${arg}" in
 		p)
 		  PHONE=${OPTARG}
@@ -8,14 +8,11 @@ while getopts ":p:e:a:c:z:" arg; do
 		e)
 		  EMAIL=${OPTARG}
 		  ;;
-		a)
-		  ADDRESS=${OPTARG}
+		r)
+		  REGION=${OPTARG}
 		  ;;
 		c)
 		  CITY=${OPTARG}
-		  ;;
-		z)
-		  CODE=${OPTARG}
 		  ;;
 	esac
 done
@@ -34,9 +31,8 @@ fi
 docker run -e 'OUTPUT_TEMPLATE=cora' \
                -e "PHONE=${PHONE}" \
                -e "EMAIL=${EMAIL}" \
-               -e "ADDRESS=${ADDRESS}" \
                -e "CITY=${CITY}" \
-               -e "CODE=${CODE}" \
+               -e "REGION=${REGION}" \
                -e 'DISPLAY=unix$DISPLAY' \
                -v $(pwd)/resume/:/usr/share/nginx/html/ \
                -v /tmp/.X11-unix:/tmp/.X11-unix \

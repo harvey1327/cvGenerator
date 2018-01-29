@@ -7,9 +7,8 @@ ENV RESUME_FILE resume.json
 ENV OUTPUT_TEMPLATE modern
 ENV PHONE 0123456789
 ENV EMAIL Email
-ENV ADDRESS Address
 ENV CITY City
-ENV CODE Code
+ENV REGION Region
 
 RUN apt-get update && \
     DEBIAN_FRONTEND=noninteractive apt-get -yq install \

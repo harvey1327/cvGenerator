@@ -2,7 +2,7 @@
 
 Forked over from https://github.com/nouchka/docker-hackmyresume
 
-Resume is stored in `resume/resume.yml`, run `./generate.bash -e <email> -p <phone> -a <addresss> -c <city> -z <postcode>` to generate resume
+Resume is stored in `resume/resume.yml`, run `./generate.bash -e <email> -p <phone> -c <city> -r <region>` to generate resume
 
 Format for resume.json is based on https://github.com/fresh-standard/FRESCA and https://jsonresume.org/schema/
 

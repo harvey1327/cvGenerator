@@ -14,9 +14,8 @@ contact:
   email: '###EMAIL###'
 
 location:
-  address: '###ADDRESS###'
   city: '###CITY###'
-  code: '###CODE###'
+  region: '###REGION###'
   country: 'UK'
 
 social:
@@ -126,5 +125,6 @@ skills:
         - Javascript
 
 references:
-  -
+  - 
     name: "Available upon request"
+    reference: ""
