@@ -9,6 +9,8 @@ fi
 sed -i 's/###PHONE###/'$PHONE'/' $RESUME_FILE
 sed -i 's/###EMAIL###/'$EMAIL'/' $RESUME_FILE
 sed -i "s/###ADDRESS###/$ADDRESS/" $RESUME_FILE
+sed -i "s/###CITY###/$CITY/" $RESUME_FILE
+sed -i "s/###CODE###/$CODE/" $RESUME_FILE
 
 hackmyresume VALIDATE $RESUME_FILE
 

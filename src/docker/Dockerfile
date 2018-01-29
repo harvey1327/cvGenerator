@@ -3,11 +3,13 @@ MAINTAINER Jean-Avit Promis "docker@katagena.com"
 LABEL org.label-schema.vcs-url="https://github.com/nouchka/docker-hackmyresume"
 LABEL version="latest"
 
-ENV RESUME_FILE   resume.json
+ENV RESUME_FILE resume.json
 ENV OUTPUT_TEMPLATE modern
-ENV PHONE +33602030405
-ENV EMAIL docker@katagena.com
-ENV ADDRESS "25 Rue Delphin Loche"
+ENV PHONE 0123456789
+ENV EMAIL Email
+ENV ADDRESS Address
+ENV CITY City
+ENV CODE Code
 
 RUN apt-get update && \
     DEBIAN_FRONTEND=noninteractive apt-get -yq install \
