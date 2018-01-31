@@ -38,13 +38,13 @@ employment:
       start: 2017-06
       summary: 'Currently I am placed within the Public Sector as a Devops Engineer as a consultant by Capgemini, my primary focus is to migrate the current infrastructure to AWS and improve upon the release cycle. The underpinning idea behind all this is to have the infrastructure as code and be able to bring it up/down with automation. With having minimal exposure to infrastructure, I have been able to pick up the tech stack quickly and effectivly and have provided a major contribution to the project by re-implementing the Jenkins jobs as pipelines written in groovy.'
     -
-      employer: Cepgemini
+      employer: Capgemini
       position: 'IT Consultant'
       start: 2017-01
       summary: 'While at Capgemini I was part of an agile team within the Applied Innovation Exchange (AIE), my role was to develop a proof of concept based on emerging tech to demo in front of clients. During the weekly sprints I was able to demonstrate my knowledge and technical skills for developing new software by picking up new technology and hitting the ground the running.' 
       highlights:
         - 'Dveloped a feedback system utilising Intel''s depth sensing camera which allows a user to provide positive or negative feedback based on hand recognition. The application was built in Java using Swing as the GUI'
-        - 'Developed an application in python that ran on a Raspberry Pi. This application record accelerometer data and sent it to IBM''s Watson IoT platform to visualise the data feed. A model was fitted onto the data to send a request to a RESTful API when certain parameters were met.'
+        - 'Developed an application in python that ran on a Raspberry Pi. This application recorded accelerometer data and sent it to IBM''s Watson IoT platform to visualise the data feed. A model was fitted onto the data to send a request to a RESTful API when certain parameters were met.'
         - 'Lead a team to develop a greenfield biometrics check-in system as part of a web app. The application was built using ReactJS and using Microsoft Cognitive Services for the face detection.'
     -
       employer: 'British Airways'
