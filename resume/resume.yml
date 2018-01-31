@@ -33,10 +33,10 @@ social:
 employment:
   history:
     -
-      employer: 'Home Office'
+      employer: 'Public Sector'
       position: 'DevOps Engineer'
       start: 2017-06
-      summary: 'Currently I am placed within the Home Office as a Devops Engineer as a consultant by Capgemini, my primary focus is to migrate the current infrastructure to AWS and improve upon the release cycle. The underpinning idea behind all this is to have the infrastructure as code and be able to bring it up/down with automation. With having minimal exposure to infrastructure, I have been able to pick up the tech stack quickly and effectivly and have provided a major contribution to the project by re-implementing the Jenkins jobs as pipelines written in groovy.'
+      summary: 'Currently I am placed within the Public Sector as a Devops Engineer as a consultant by Capgemini, my primary focus is to migrate the current infrastructure to AWS and improve upon the release cycle. The underpinning idea behind all this is to have the infrastructure as code and be able to bring it up/down with automation. With having minimal exposure to infrastructure, I have been able to pick up the tech stack quickly and effectivly and have provided a major contribution to the project by re-implementing the Jenkins jobs as pipelines written in groovy.'
     -
       employer: Cepgemini
       position: 'IT Consultant'
