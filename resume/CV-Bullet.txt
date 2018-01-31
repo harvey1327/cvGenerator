@@ -1,0 +1,21 @@
+I have worked as a Software Developer for British Airways as part of the Ba.com Optimisation team. My role was to optimise the website by introducing live bug fixes and improvements into the Ba.com release cycle.
+
+•	Dealt with a large variation of issues which occurred across all areas of Ba.com including its various subsystems, including those used by Iberia
+•	Was responsible for analysing and testing a new monitoring tool called DynaTrace to be introduced to help monitor the website
+•	I communicate and collaborate with different teams across the company, including those offshore within different time zones. 
+•	Using the various tools provided to me, I would analyse an issue based from the user story and pinpoint where the problem occurred and create a future-proof solution
+•	At times I had to implement new features and processes into the website within time critical deadlines
+•	During my downtime between tasks I would go out of my way to create automation scripts which would increase my productivity and also of the team
+•	My team was responsible for a major migration for Ba.com to replace all of its API calls to WebService calls, this involved creating an extensive testing plan alongside the code changes
+•	I have created solutions to bug fixes throughout the stack, from the front-end of ba.com through the Java code and down to the database procedures 
+•	I am aware of how large an Enterprise application can be and how complicated it can be with the different architectures and coding styles that have been developed over the years
+
+I have worked as a Client Data Manager for a telefundraising company called Listen Ltd. I was in charge of setting up various campaigns for different clients and maintaining their integrity. I would produce ad-hoc queries and analysis when necessary and ensure a smooth running of the campaign
+
+•	Responsible for managing all streams of data for my clients which are spread out over multiple databases for various campaigns.
+•	I set up databases according to client import specifications from a standardised template. I then proceed to modify and create multiple queries and tables to suit the client’s needs.  
+•	I oversee the creation of scripts using HTML, CSS and JavaScript which telephone fundraisers read from. This links the transcript to the database containing the client’s supporter’s information.
+•	Utilising my SQL knowledge, I solve problems that occur mid-campaign by creating multiple queries to find the roots of errors. This enables me to resolve faults in a timely manner.   
+•	Responsible for analysing information stored within the database according to briefs and producing reports that monitor various telemarketing campaigns. 
+•	I deal with a large volume of data on a daily basis and manage the information in various formats and modes. 
+•	Fully versed and involved in a full campaign life cycle which gives me the means to determine how successful a campaign is run.  
