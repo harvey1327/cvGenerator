@@ -117,7 +117,7 @@ skills:
       name: Software
       skills:
         - Gitlab
-        - Artifactrory
+        - Artifactory
         - Jenkins
     -
       name: System
@@ -130,7 +130,7 @@ skills:
         - Vagrant
         - Git
     -
-      name: Langages
+      name: Languages
       skills:
         - Java
         - Groovy
