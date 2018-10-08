@@ -36,7 +36,10 @@ employment:
       employer: 'PA Consulting'
       position: 'Software/Devops Engineer'
       start: 2018-04
-      summary: 'Currently I work as a Software and Devops Engineer for PA Consulting, my role is to help our clients with their Digital Transformation projects.'
+      summary: 'Currently I work as a Software and Devops Engineer for PA Consulting. I am based on a client site to develop a mobile API written in Java, which is to be used by an app on a mobile device, the app is deployed on Google Cloud Platform'
+      highlights:
+        - 'While creating the services I also helped to improve the architecture behind it, by using the GCP resources provided such as spanner and storage'
+        - 'I have provided a substantial contribution by improving the pipeline process to build and deploy onto the Google Cloud Platform. As the app required the use of both Google App Engine and Google Cloud Endpoints, I implemented a way to deploy both of these resources within the pipeline without requiring any manual changes'
     -
       employer: 'Public Sector'
       position: 'DevOps Engineer'
