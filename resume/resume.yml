@@ -36,10 +36,16 @@ employment:
       employer: 'PA Consulting'
       position: 'Software/Devops Engineer'
       start: 2018-04
-      summary: 'Currently I work as a Software and Devops Engineer for PA Consulting. I am based on client site to develop an API written in Java to be consumed by an app on a mobile device. The app is deployed with Google App Engine on the Google Cloud Platform.'
+      summary: 'Currently I work as a Software and Devops Engineer for PA Consulting, during my time here I have worked with 2 clients. The first client I worked for was Rentokil Initial, I was part of a team which actively developed a RESTful mobile API to deploy onto GCP. The second client was in the Public Sector to help maintain and further develop their CI/CD pipeline on AWS, part of this role was to also further develop an inhouse metrics dahsboard'
       highlights:
-        - 'While creating the services I also helped to improve the architecture behind it, by using the GCP resources provided such as spanner and storage'
-        - 'I have provided a substantial contribution by improving the pipeline process to build and deploy onto the Google Cloud Platform. As the app required the use of both Google App Engine and Google Cloud Endpoints, I implemented a way to deploy both of these resources within the pipeline without requiring any manual intervention'
+        - 'Develop an API written in Java to be consumed by an app on a mobile device. The app is deployed with Google App Engine on the Google Cloud Platform.'
+        - 'Helped to improve the architecture of a Java application, by using the GCP resources provided such as spanner and storage.'
+        - 'Provided a substantial contribution by improving the pipeline process to build and deploy onto the Google Cloud Platform. As the app required the use of both Google App Engine and Google Cloud Endpoints, I implemented a way to deploy both of these resources within the pipeline without requiring any manual intervention'
+        - 'Was the tech lead to help migrate the North American side of the business over to GCP, this involved gathering and implementing requirements from stakeholders and ensuring the deadline was met in a timely manner'
+        - ''
+        - 'Acted as support to help developers with issues they faced within their deployemnts to their developer environment and CI environment, which was hosted in kubernetes'
+        - 'Further develped a metrics dashbaord for key stakeholders based on their requirements, this was developed in Java with Spring and a combination of AWS S3 and MongoDB'
+        - 'Provided Jenkins as a service to various development teams as a docker image while also providing help with their queries when further development was needed.'
     -
       employer: 'Public Sector'
       position: 'DevOps Engineer'
@@ -78,7 +84,7 @@ employment:
       position: 'IT Consultant'
       start: 2014-04
       end: 2017-01
-      summary: 'During my time there I was trained in: Java, Spring MVC, Java EE, Hibernate, Maven, Unix, SQL. My first contract with them was for British Airways.'
+      summary: 'During my time there I was trained in: Java, Spring MVC, Java EE, Hibernate, Maven, Unix, SQL. My contract with them was for British Airways.'
     -
       employer: 'Listen Ltd'
       position: 'Client Data Manager'
@@ -120,7 +126,6 @@ skills:
     -
       name: 'Build Tools'
       skills:
-        - Ant
         - Maven
         - Gradle
     -
