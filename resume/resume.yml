@@ -6,8 +6,8 @@ meta:
   version: '0.1'
 
 info:
-  label: 'Software Engineer'
-  brief: 'An articulate and analytical Software Engineer who has been able to adapt to working in different areas without compromising performance. I have worked on a variety of projects from simple to complex while working towards a tight deadline in an agile manner. Within my roles I have analysed, developed, tested and deployed onto different systems within a continuous integration environment. In addition to this I have ran user acceptance testing for any customer facing clients. During my years I have proven my communication skills by effectively communicating with both the business and technical sides. I have shown to have strong technical skills while performing as a server-side Java Developer and a willingness to learn new ones which is exhibited by my transition to a DevOps Engineer.'
+  label: 'Software/DevOps Engineer'
+  brief: 'An articulate and analytical Engineer who has been able to adapt to working in different areas without compromising performance. I have worked on a variety of projects from simple to complex while working towards a tight deadline in an agile manner. Within my roles I have analysed, developed, tested and deployed onto different systems within a continuous integration environment. In addition to this I have ran user acceptance testing for any customer facing clients. During my years I have proven my communication skills by effectively communicating with both the business and technical sides. I have shown to have strong technical skills while performing as a server-side Java Developer and a willingness to learn new ones which is exhibited by my transition to a DevOps Engineer.'
 
 contact:
   phone: '###PHONE###'
@@ -34,18 +34,17 @@ employment:
   history:
     -
       employer: 'PA Consulting'
-      position: 'Software/Devops Engineer'
+      position: 'Software/DevOps Engineer'
       start: 2018-04
-      summary: 'Currently I work as a Software and Devops Engineer for PA Consulting, during my time here I have worked with 2 clients. The first client I worked for was Rentokil Initial, I was part of a team which actively developed a RESTful mobile API to deploy onto GCP. The second client was in the Public Sector to help maintain and further develop their CI/CD pipeline on AWS, part of this role was to also further develop an inhouse metrics dahsboard'
+      summary: 'Currently I work as a Software and Devops Engineer for PA Consulting, during my time here I have worked with 2 clients. The first client I worked for was Rentokil Initial (RI), there I was part of a team which actively developed a RESTful mobile API to deploy onto GCP. The second client was in the Public Sector (PS) to help maintain and further develop their CI/CD pipeline on AWS, part of this role was to also further develop an inhouse metrics dahsboard'
       highlights:
-        - 'Develop an API written in Java to be consumed by an app on a mobile device. The app is deployed with Google App Engine on the Google Cloud Platform.'
-        - 'Helped to improve the architecture of a Java application, by using the GCP resources provided such as spanner and storage.'
-        - 'Provided a substantial contribution by improving the pipeline process to build and deploy onto the Google Cloud Platform. As the app required the use of both Google App Engine and Google Cloud Endpoints, I implemented a way to deploy both of these resources within the pipeline without requiring any manual intervention'
-        - 'Was the tech lead to help migrate the North American side of the business over to GCP, this involved gathering and implementing requirements from stakeholders and ensuring the deadline was met in a timely manner'
-        - ''
-        - 'Acted as support to help developers with issues they faced within their deployemnts to their developer environment and CI environment, which was hosted in kubernetes'
-        - 'Further develped a metrics dashbaord for key stakeholders based on their requirements, this was developed in Java with Spring and a combination of AWS S3 and MongoDB'
-        - 'Provided Jenkins as a service to various development teams as a docker image while also providing help with their queries when further development was needed.'
+        - 'RI: Develop an API written in Java to be consumed by an app on a mobile device. The app is deployed with Google App Engine on the Google Cloud Platform.'
+        - 'RI: Helped to improve the architecture of a Java application, by using the GCP resources provided such as spanner and storage.'
+        - 'RI: Provided a substantial contribution by improving the pipeline process to build and deploy onto the Google Cloud Platform. As the app required the use of both Google App Engine and Google Cloud Endpoints, I implemented a way to deploy both of these resources within the pipeline without requiring any manual intervention'
+        - 'RI: Was the tech lead to help migrate the North American side of the business over to GCP, this involved gathering and implementing requirements from stakeholders and ensuring the deadline was met in a timely manner'
+        - 'PS: Acted as support to help developers with issues they faced within their deployemnts to their developer environment and CI environment, which was hosted in kubernetes'
+        - 'PS: Further develped a metrics dashbaord for key stakeholders based on their requirements, this was developed in Java with Spring and a combination of AWS S3 and MongoDB'
+        - 'PS: Provided Jenkins as a service to various development teams as a docker image while also providing help with their queries when further development was needed.'
     -
       employer: 'Public Sector'
       position: 'DevOps Engineer'
@@ -121,7 +120,7 @@ skills:
       skills:
         - Spring
         - SpringBoot
-        - ReactJS
+        - Ktor
         - JUnit
     -
       name: 'Build Tools'
@@ -134,6 +133,7 @@ skills:
         - Gitlab
         - Artifactory
         - Jenkins
+        - MongoCharts
     -
       name: System
       skills:
@@ -149,6 +149,7 @@ skills:
       skills:
         - Java
         - Groovy
+        - Kotlin
         - Bash
         - SQL
         - Python
