@@ -44,7 +44,7 @@ employment:
         - 'RI: Was the tech lead to help migrate the North American side of the business over to GCP, this involved gathering and implementing requirements from stakeholders and ensuring the deadline was met in a timely manner'
         - 'PS: Acted as support to help developers with issues they faced within their deployemnts to their developer environment and CI environment, which was hosted in kubernetes'
         - 'PS: Further develped a metrics dashbaord for key stakeholders based on their requirements, this was developed in Java with Spring and a combination of AWS S3 and MongoDB'
-        - 'PS: Provided Jenkins as a service to various development teams as a docker image while also providing help with their queries when further development was needed.'
+        - 'PS: Provided Jenkins as a service to various development teams as a docker image, while also providing help with their queries when further development was needed.'
     -
       employer: 'Public Sector'
       position: 'DevOps Engineer'
