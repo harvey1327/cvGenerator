@@ -12,11 +12,10 @@ info:
 contact:
   phone: '###PHONE###'
   email: '###EMAIL###'
-
-location:
-  city: '###CITY###'
-  region: '###REGION###'
-  country: 'UK'
+  location:
+    city: '###CITY###'
+    region: '###REGION###'
+    country: 'UK'
 
 social:
   -
