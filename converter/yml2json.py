@@ -7,7 +7,7 @@ args = parser.parse_args()
 
 def loadYaml(path):
 	file = open(path, 'r')
-	return yaml.load(file)
+	return yaml.load(file, yaml.SafeLoader)
 
 def convertToJson(yamlData):
 	return json.dumps(yamlData, indent=4, sort_keys=True)
