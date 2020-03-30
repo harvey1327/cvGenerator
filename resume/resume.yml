@@ -32,24 +32,36 @@ social:
 employment:
   history:
     -
+      employer: 'BMI'
+      position: 'Fullstack DevOps Engineer'
+      start: 2019-10
+      summary: 'At BMI I was part of a team that worked for one of its subsidiaries MeinDach. We were tasked to create a platform where both its business partners and customers were able to interact with each other to offer and accept services. Our platform was based on a microservices architecture hosted on GCP, the back end was in kotlin and the front end was in React'
+      highlights:
+        - 'Worked with a variety of technology: Kotlin, Typescript, Gradle, Maven, NPM, SpringBoot, React, GCP, Docker, Kubernetes, MySQL, Redis, Fluxcd, helm. I was new to both Kotlin and Typescript and manged to pick up both languages easily and use them competently'
+        - 'Took over and lead the development of our new Mobile app built using React. I learnt how to use React in a short time and understand how a mobile app was to be written and structured, we designed the app to use functional components and hooks instead of class components'
+        - 'The team inherited a fair amount of code written by various contractors in various styles, because of this we followed a principle where we would refactor code when necessary to align it with our new style and make sure we never reduced the code coverage'
+        - 'Further developed our back end apis using TDD to ensure we followed good code practices, while doing this I learnt how to write tests using KotlinTest and follow a more functional programming paradigm'
+        - 'Maintained and helped to improve how our infrastructure was created and handled'
+    -
       employer: 'PA Consulting'
       position: 'Software/DevOps Engineer'
       start: 2018-04
-      summary: 'Currently I work as a Software and Devops Engineer for PA Consulting, during my time here I have worked with 2 clients. The first client I worked for was Rentokil Initial (RI), there I was part of a team which actively developed a RESTful mobile API to deploy onto GCP. The second client was in the Public Sector (PS) to help maintain and further develop their CI/CD pipeline on AWS, part of this role was to also further develop an inhouse metrics dahsboard'
+      end: 2019-09
+      summary: 'I worked as a Software and DevOps Engineer for PA Consulting, during my time there I worked with 2 clients. The first client I worked for was Rentokil Initial, there I was part of a team which actively developed a RESTful mobile API to deploy onto GCP. The second client was in the Public Sector to help maintain and further develop their CI/CD pipeline on AWS, part of this role was to also further develop an in-house metrics dashboard'
       highlights:
-        - 'RI: Develop an API written in Java to be consumed by an app on a mobile device. The app is deployed with Google App Engine on the Google Cloud Platform.'
-        - 'RI: Helped to improve the architecture of a Java application, by using the GCP resources provided such as spanner and storage.'
-        - 'RI: Provided a substantial contribution by improving the pipeline process to build and deploy onto the Google Cloud Platform. As the app required the use of both Google App Engine and Google Cloud Endpoints, I implemented a way to deploy both of these resources within the pipeline without requiring any manual intervention'
-        - 'RI: Was the tech lead to help migrate the North American side of the business over to GCP, this involved gathering and implementing requirements from stakeholders and ensuring the deadline was met in a timely manner'
-        - 'PS: Acted as support to help developers with issues they faced within their deployemnts to their developer environment and CI environment, which was hosted in kubernetes'
-        - 'PS: Further develped a metrics dashbaord for key stakeholders based on their requirements, this was developed in Java with Spring and a combination of AWS S3 and MongoDB'
-        - 'PS: Provided Jenkins as a service to various development teams as a docker image, while also providing help with their queries when further development was needed.'
+        - 'Rentokil Initial: Develop an API written in Java to be consumed by an app on a mobile device. The app is deployed with Google App Engine on the Google Cloud Platform.'
+        - 'Rentokil Initial: Helped to improve the architecture of a Java application, by using the GCP resources provided such as spanner and storage.'
+        - 'Rentokil Initial: Provided a substantial contribution by improving the pipeline process to build and deploy onto the Google Cloud Platform. As the app required the use of both Google App Engine and Google Cloud Endpoints, I implemented a way to deploy both of these resources within the pipeline without requiring any manual intervention'
+        - 'Rentokil Initial: Was the tech lead to help migrate the North American side of the business over to GCP, this involved gathering and implementing requirements from stakeholders and ensuring the deadline was met in a timely manner'
+        - 'Public Sector: Acted as support to help developers with issues they faced within their deployments to their developer environment and CI environment, which was hosted in Kubernetes'
+        - 'Public Sector: Further developed a metrics dashboard for key stakeholders based on their requirements, this was developed in Java with Spring and a combination of AWS S3 and MongoDB'
+        - 'Public Sector: Provided Jenkins as a service to various development teams as a docker image, while also providing help with their queries when further development was needed.'
     -
       employer: 'Public Sector'
       position: 'DevOps Engineer'
       start: 2017-06
       end: 2018-04
-      summary: 'I was placed within the Public Sector as a Devops Engineer consultant by Capgemini, my primary focus was to migrate the current infrastructure to AWS and improve upon the release cycle. With having minimal exposure to infrastructure, I was able to pick up the tech stack quickly and effectively.'
+      summary: 'I was placed within the Public Sector as a DevOps Engineer consultant by Capgemini, my primary focus was to migrate the current infrastructure to AWS and improve upon the release cycle. With having minimal exposure to infrastructure, I was able to pick up the tech stack quickly and effectively.'
       highlights:
         - 'Worked closely with security to ensure the infrastructure met their needs'
         - 'Transformed the old Jenkins build process to a modern multi-branch pipeline generated by seed jobs'
@@ -107,7 +119,7 @@ education:
       start: 2008-09
       end: 2010-06
     -
-      institution: 'Burnham Grammer School'
+      institution: 'Burnham Grammar School'
       studyType: GCSE
       start: 2002-09
       end: 2008-06
@@ -120,12 +132,13 @@ skills:
         - Spring
         - SpringBoot
         - Ktor
-        - JUnit
+        - React
     -
       name: 'Build Tools'
       skills:
         - Maven
         - Gradle
+        - NPM
     -
       name: Software
       skills:
@@ -149,10 +162,11 @@ skills:
         - Java
         - Groovy
         - Kotlin
-        - Bash
+        - Shell
         - SQL
         - Python
         - Javascript
+        - Typescript
 
 references:
   -
