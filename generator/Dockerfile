@@ -1,5 +1,6 @@
 FROM node:13.11-alpine3.10
 
+ENV THEME cora
 ENV PHONE 0123456789
 ENV EMAIL Email
 ENV CITY City

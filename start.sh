@@ -2,7 +2,7 @@
 
 RESUME=$PWD/resume
 
-while getopts ":p:e:r:c:" arg; do
+while getopts ":p:e:r:c:t:" arg; do
 	case "${arg}" in
 		p)
 		  PHONE=${OPTARG}
@@ -16,6 +16,9 @@ while getopts ":p:e:r:c:" arg; do
 		c)
 		  CITY=${OPTARG}
 		  ;;
+		t)
+		  THEME=${OPTARG}
+		  ;;
 	esac
 done
 
@@ -26,7 +29,7 @@ if [ -z $EXIST ]; then
 echo '--------Building Image converter:latest'
 	docker build ./converter/ -t converter:latest
 fi
-docker run -v $RESUME:/tmp converter:latest
+docker run --name converter -v $RESUME:/tmp converter:latest
 echo '--------Ending conversion process'
 
 #Run node container to generate resume
@@ -36,10 +39,15 @@ if [ -z $EXIST ]; then
 echo '--------Building Image generator:latest'
 	docker build ./generator/ -t generator:latest
 fi
-docker run -e "PHONE=${PHONE}" \
+docker run --name generator \
+			-e "PHONE=${PHONE}" \
 			-e "EMAIL=${EMAIL}" \
 			-e "CITY=${CITY}" \
 			-e "REGION=${REGION}" \
+			-e "THEME=${THEME}" \
 			-v $RESUME:/resume \
 			generator:latest
 echo '--------Ending generation process'
+
+echo '--------Clearing containers'
+docker container rm converter generator
