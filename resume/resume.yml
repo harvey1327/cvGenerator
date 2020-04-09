@@ -55,7 +55,8 @@ employment:
         - 'Rentokil Initial: Was the tech lead to help migrate the North American side of the business over to GCP, this involved gathering and implementing requirements from stakeholders and ensuring the deadline was met in a timely manner'
         - 'Public Sector: Acted as support to help developers with issues they faced within their deployments to their developer environment and CI environment, which was hosted in Kubernetes'
         - 'Public Sector: Further developed a metrics dashboard for key stakeholders based on their requirements, this was developed in Java with Spring and a combination of AWS S3 and MongoDB'
-        - 'Public Sector: Provided Jenkins as a service to various development teams as a docker image, while also providing help with their queries when further development was needed.'
+        - 'Public Sector: Provided Jenkins as a service to various development teams as a docker image, while also providing help with their queries when further development was needed'
+        - 'Public Sector: Built environments in AWS with terraform for the development and testing teams'
     -
       employer: 'Public Sector'
       position: 'DevOps Engineer'
@@ -167,6 +168,11 @@ skills:
         - Python
         - Javascript
         - Typescript
+    -
+      name: Cloud Platforms
+      skills:
+        - AWS
+        - GCP
 
 references:
   -
