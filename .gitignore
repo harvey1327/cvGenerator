@@ -1,2 +1,4 @@
 resume/*
 !resume/resume.yml
+
+.idea/
