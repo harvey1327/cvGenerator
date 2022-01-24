@@ -2,19 +2,13 @@
 
 RESUME=$PWD/resume
 
-while getopts ":p:e:r:c:t:" arg; do
+while getopts ":p:e:t:" arg; do
 	case "${arg}" in
 		p)
 		  PHONE=${OPTARG}
 		  ;;
 		e)
 		  EMAIL=${OPTARG}
-		  ;;
-		r)
-		  REGION=${OPTARG}
-		  ;;
-		c)
-		  CITY=${OPTARG}
 		  ;;
 		t)
 		  THEME=${OPTARG}
@@ -42,8 +36,6 @@ fi
 docker run --name generator \
 			-e "PHONE=${PHONE}" \
 			-e "EMAIL=${EMAIL}" \
-			-e "CITY=${CITY}" \
-			-e "REGION=${REGION}" \
 			-e "THEME=${THEME}" \
 			-v $RESUME:/resume \
 			generator:latest
