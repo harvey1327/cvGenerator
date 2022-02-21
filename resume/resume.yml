@@ -30,8 +30,7 @@ employment:
     -
       employer: 'Dynium Robot'
       position: 'Senior Fullstack Software Engineer'
-      start: 2019-10
-      end: 2020-04
+      start: 2020-04
       summary: 'I started as a Fullstack Software Engineer at Dynium Robot. My role here was to design and develop the analytics and front end services from the ground up. The goal was to have a platform where large amounts of data could be ingested and processed with various metrics being calculated and shown on a dashboard to a user'
       highlights:
         - 'Worked with modern technologies: Go, Typescript, Node, React, GraphQL, gRPC, Docker, GCP Firestore, GCP CloudRun'
