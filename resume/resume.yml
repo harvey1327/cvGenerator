@@ -38,6 +38,7 @@ employment:
         - 'Using Gitlab Pipelines and Github Actions I developed our CI/CD process to deploy our services to GCP CloudRun after it had tested the code and build/pushed a Docker image to GCP Container Registry. This enabled us to have a consistent and reliable approach to deploy to dev and production'
         - 'Automated creation of GCP infrastructure services and accounts using the gcloud sdk'
         - 'Was able to pick up and use Go competently and made good use of Goroutines when it was required for metric and data processing or streaming data between services'
+        - 'Implemented RBAC using Auth0 within GraphQL to enable authentication across multiple roles on a public api'
     -
       employer: 'BMI'
       position: 'FullStack DevOps Engineer'
