@@ -28,9 +28,18 @@ social:
 employment:
   history:
     -
+      employer: 'Fujitsu'
+      position: 'Application Developer'
+      start: 2022-07
+      summary: 'At Fujitsu I am placed within a team to deliver an MVP product for one of our clients. The architecture is based on an event based messaging platform written in java using the dropwizard framework to develop our microservices, alongside this the front end is written in typescript using the Angular framework'
+      highlights:
+        - 'Helped to improve the sprint planning process by streamlining the scope of tickets and how they are created'
+        - 'Mentored junior developers to use best practice when developing new features or refactoring'
+    -
       employer: 'Dynium Robot'
       position: 'Senior FullStack Software Engineer'
       start: 2020-04
+      end: 2022-06
       summary: 'My role here was to design and develop the analytics and front end services from the ground up. The goal was to have a platform where large amounts of data could be ingested and processed with various metrics being calculated and shown on a dashboard to a user. The platform was designed on a microservices architecture hosted on GCP'
       highlights:
         - 'Worked with a variety of modern technologies: Go, Typescript, Node, React, GraphQL, gRPC, Docker, Google Cloud Platform'
