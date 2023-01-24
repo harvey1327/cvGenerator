@@ -7,7 +7,7 @@ meta:
 
 info:
   label: 'Software/DevOps Engineer'
-  brief: 'An articulate and analytical Engineer who has been able to adapt to working in different areas without compromising performance. I have worked on a variety of projects from simple to complex while working towards a tight deadline in an agile manner. Within my roles I have analysed, developed, tested and deployed onto different systems within a continuous integration/delivery environment. During my years I have proven my communication skills by effectively communicating with both the business and technical sides of the company. I have shown to have strong technical skills while performing as a server-side Java Developer and a willingness to learn new ones which is exhibited by my transition to a FullStack/DevOps Engineer.'
+  brief: 'An articulate and analytical Engineer who has been able to adapt to working in different areas without compromising performance. I have worked on a variety of projects from simple to complex while working towards a tight deadline in an agile manner. Within my roles I have analysed, developed, tested and deployed onto different systems within a continuous integration/delivery environment. During my years I have proven my communication skills by effectively communicating with both the business and technical sides of the company. I have shown to have strong technical skills while performing as a backend developer and a willingness to learn new ones which is exhibited by my transition to a FullStack/DevOps Engineer.'
 
 contact:
   phone: '###PHONE###'
@@ -34,10 +34,11 @@ employment:
       summary: 'At Fujitsu I am placed within a team to deliver an MVP product for one of our clients. The architecture is based on an event based messaging platform written in java using the dropwizard framework to develop our microservices, alongside this the front end is written in typescript using the Angular framework'
       highlights:
         - 'Helped to improve the sprint planning process by streamlining the scope of tickets and how they are created'
+        - 'Collaborated with other senior engineers to push forward the mentality to tackle tech debt as we implement new features'
         - 'Mentored junior developers to use best practice when developing new features or refactoring'
     -
       employer: 'Dynium Robot'
-      position: 'Senior FullStack Software Engineer'
+      position: 'Senior Backend/DevOps Engineer'
       start: 2020-04
       end: 2022-06
       summary: 'My role here was to design and develop the analytics and front end services from the ground up. The goal was to have a platform where large amounts of data could be ingested and processed with various metrics being calculated and shown on a dashboard to a user. The platform was designed on a microservices architecture hosted on GCP'
