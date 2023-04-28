@@ -31,12 +31,13 @@ employment:
       employer: 'Fujitsu'
       position: 'Application Developer'
       start: 2022-07
-      summary: 'At Fujitsu I am placed within a team to deliver an MVP product for one of our clients. The microservice architecture is based on an event based messaging platform utilising RabbitMQ, the microservices where written in Java using the Spring Boot framework, alongside this the front end is written in typescript using the Angular framework'
+      summary: 'At Fujitsu I have been part of multiple teams which have focused on developing a product for the long term and providing services to our clients for the short term. The long term project was to develop a contactless ticketing system mobile application to allow customers to travel via public transport. This was developed using Java and the Spring Boot framework, it is based on an Event Driven microservice architecture utilising RabbitMQ, alongside this the front end is written in typescript using the Angular framework'
       highlights:
-        - 'Helped to improve the sprint planning process by streamlining the scope of tickets and how they are created'
+        - 'Improved the sprint planning process by streamlining the scope of tickets and how they are created'
         - 'Collaborated with other senior engineers to push forward the mentality to tackle tech debt as we implement new features'
         - 'Mentored junior developers to use best practice when developing new features or refactoring'
         - 'Communicated with the client to identify and solve production issues'
+        - 'Collaborated with developers and the client to understand how to develop CI/CD pipelines during a migration'
     -
       employer: 'Dynium Robot'
       position: 'Senior Backend/DevOps Engineer'
