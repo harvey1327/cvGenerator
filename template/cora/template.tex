@@ -1,17 +1,39 @@
 \documentclass[10pt, a4paper]{article}
+\usepackage[margin=1in]{geometry}
 \usepackage[default]{opensans}
 \usepackage[hidelinks]{hyperref}
 \usepackage{parskip}
+\usepackage{enumitem}
 \usepackage{graphicx}
 \graphicspath{ {./icon/} }
+\pagenumbering{gobble}
 
 \begin{document}
-  \vspace*{-6em}
     \begin{center}
-      \par {\fontsize{1.7em}{2.0em} \textbf{Harvey Bal}}
-      \par {\fontsize{1.1em}{1.3em} \textbf{Software/DevOps Engineer}}
-      \par {\fontsize{0.8em}{1.2em} \href{mailto:harvey_bal@hotmail.co.uk}{\raisebox{-0.18\baselineskip}{\includegraphics[height=1\baselineskip]{email.png}} harvey\_bal@hotmail.co.uk}}
-      \par {\fontsize{0.8em}{1.2em} \raisebox{-0.18\baselineskip}{\includegraphics[height=1\baselineskip]{phone.png}} 07521311943}
-      \par {\fontsize{0.8em}{1.2em} \href{https://github.com/harvey1327}{\raisebox{-0.18\baselineskip}{\includegraphics[height=1\baselineskip]{github.png}} harvey1327}} \qquad {\fontsize{0.8em}{1.2em} \href{https://www.linkedin.com/in/harvey-bal-337ba794/}{\raisebox{-0.18\baselineskip}{\includegraphics[height=1\baselineskip]{linkedin.png}} Harvey}}
+      {\LARGE \textbf{Harvey Bal}} \par
+      {\large \textbf{Software/DevOps Engineer}} \par
+      {\href{mailto:harvey_bal@hotmail.co.uk}{\raisebox{-0.18\baselineskip}{\includegraphics[height=1\baselineskip]{email.png}} harvey\_bal@hotmail.co.uk}} \par
+      {\raisebox{-0.18\baselineskip}{\includegraphics[height=1\baselineskip]{phone.png}} 07521311943} \par
+      {\href{https://github.com/harvey1327}{\raisebox{-0.18\baselineskip}{\includegraphics[height=1\baselineskip]{github.png}} harvey1327}} \qquad {\href{https://www.linkedin.com/in/harvey-bal-337ba794/}{\raisebox{-0.18\baselineskip}{\includegraphics[height=1\baselineskip]{linkedin.png}} Harvey}} \par
     \end{center}
+    \vspace*{0.3in}
+
+    \vspace*{0.5in}
+    {\large \raisebox{0\baselineskip}{\includegraphics[height=0.8\baselineskip]{user.png}} \enspace \textbf{ABOUT}} \par
+    An articulate and analytical Engineer who has been able to adapt to working in different areas without compromising performance. I have worked on a variety of projects from simple to complex while working towards a tight deadline in an agile manner. Within my roles I have analysed, developed, tested and deployed onto different systems within a continuous integration/delivery environment. During my years I have proven my communication skills by effectively communicating with both the business and technical sides of the company. I have shown to have strong technical skills while performing as a backend developer and a willingness to learn new ones which is exhibited by my roles as a FullStack/DevOps Engineer. \par
+
+    \vspace*{0.5in}
+    {\large \raisebox{0\baselineskip}{\includegraphics[height=0.8\baselineskip]{work.png}} \enspace \textbf{WORK EXPERIENCE}} \par
+    {\textbf{Application Developer, Fujitsu}} \par
+    {\textbf{2022-Jul - Present}} \par
+    At Fujitsu I have been part of multiple teams which have focused on developing a product for the long term and providing services to our clients for the short term. The long term project was to develop a contactless ticketing system mobile application to allow customers to travel via public transport. This was developed using Java and the Spring Boot framework, it is based on an Event Driven microservice architecture utilising RabbitMQ, alongside this the front end is written in typescript using the Angular framework \par
+    {\textbf{HIGHLIGHTS}} \par
+    \begin{itemize}[label={\large\textbullet}]
+      \item Improved the sprint planning process by streamlining the scope of tickets and how they are created
+      \item Collaborated with other senior engineers to push forward the mentality to tackle tech debt as we implement new features
+      \item Mentored junior developers to use best practice when developing new features or refactoring
+      \item Communicated with the client to identify and solve production issues
+      \item Collaborated with developers and the client to understand how to develop CI/CD pipelines during a migration
+    \end{itemize}
+
 \end{document}
