@@ -29,12 +29,12 @@
     \vspace*{0.3in}
     {\normalsize \raisebox{-0.05\baselineskip}{\includegraphics[height=0.8\baselineskip]{work.png}} \enspace \textbf{WORK EXPERIENCE}} \par
     [[- range $index, $element := .Employment.History]]
-      {\footnotesize \textbf{[[ $element.Position ]], [[ $element.Employer ]]}} \par
-      {\footnotesize \textbf{[[ $element.Start ]] - [[ $element.End ]]}} \par
+      {\footnotesize \textbf{[[ $element.Position ]], [[ $element.Employer ]]}}
+      \\{\footnotesize \textbf{[[ $element.Start ]] - [[ $element.End ]]}} \par
       {\scriptsize [[ $element.Summary ]]} \par
       [[- if ne (len $element.Highlights) 0 ]]
         {\footnotesize \textbf{HIGHLIGHTS}} \par
-        \begin{itemize}[label={\normalsize\textbullet}]
+        \begin{itemize}[label={\normalsize\textbullet}, noitemsep]
         [[- range $element.Highlights]]
           \item \scriptsize [[ . ]]
         [[- end]]
