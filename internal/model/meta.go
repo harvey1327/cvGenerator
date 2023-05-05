@@ -1,6 +1,6 @@
 package model
 
-type meta struct {
+type Meta struct {
 	Format  string
 	Version string
 }

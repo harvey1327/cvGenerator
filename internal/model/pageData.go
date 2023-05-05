@@ -1,7 +1,7 @@
 package model
 
 type PageData struct {
-	Meta    meta
+	Meta    Meta
 	Info    info
 	Contact contact
 	Social  social

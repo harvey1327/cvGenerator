@@ -3,33 +3,30 @@ package latex
 import (
 	"fmt"
 	"os"
+	"os/exec"
 	"text/template"
 
 	"github.com/harvey1327/resumehack/internal/model"
 )
 
 type templateGeneration struct {
-	templateFolder string
-	templateName   string
-	outputName     string
+	folderPath      string
+	templateName    string
+	outputLatexFile string
 }
 
-func TemplateGeneration() templateGeneration {
+func TemplateGeneration(metaData model.Meta) templateGeneration {
+	folderPath := fmt.Sprintf("./template/%s/%s", metaData.Format, metaData.Version)
 	return templateGeneration{
-		templateFolder: "template",
-		templateName:   "template.tmpl",
-		outputName:     "cv.tex",
+		folderPath:      folderPath,
+		templateName:    "template.tmpl",
+		outputLatexFile: fmt.Sprintf("%s/cv.tex", folderPath),
 	}
 }
 
 func (tg templateGeneration) Generate(pageData model.PageData) error {
-	folderPath := fmt.Sprintf("./%s/%s/%s", tg.templateFolder, pageData.Meta.Format, pageData.Meta.Version)
-	inputPath := fmt.Sprintf("%s/%s", folderPath, tg.templateName)
-	outputPath := fmt.Sprintf("%s/%s", folderPath, tg.outputName)
-
-	t := template.Must(template.New(tg.templateName).Delims("[[", "]]").ParseFiles(inputPath))
-
-	output, err := os.Create(outputPath)
+	t := template.Must(template.New(tg.templateName).Delims("[[", "]]").ParseFiles(fmt.Sprintf("%s/%s", tg.folderPath, tg.templateName)))
+	output, err := os.Create(tg.outputLatexFile)
 	if err != nil {
 		return err
 	}
@@ -38,4 +35,13 @@ func (tg templateGeneration) Generate(pageData model.PageData) error {
 		return err
 	}
 	return nil
+}
+
+func (tg templateGeneration) ConvertToPdf() ([]byte, error) {
+	cmd := exec.Command("pdflatex", fmt.Sprintf("--output-directory=%s", tg.folderPath), tg.outputLatexFile)
+	out, err := cmd.Output()
+	if err != nil {
+		return nil, err
+	}
+	return out, nil
 }

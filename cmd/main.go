@@ -18,12 +18,21 @@ func main() {
 	}
 	log.Println("yml successfully converted")
 
-	// Convert struct into template
+	// Convert struct into latex template
 	log.Println("Starting template generation")
-	ltx := latex.TemplateGeneration()
+	ltx := latex.TemplateGeneration(pageData.Meta)
 	err = ltx.Generate(pageData)
 	if err != nil {
-		panic(err)
+		log.Fatalf("error generating latex template: %s", err.Error())
 	}
 	log.Println("template successfully generated")
+
+	//Convert latex template to pdf
+	log.Println("Starting PDF generation")
+	output, err := ltx.ConvertToPdf()
+	if err != nil {
+		log.Fatalf("error generating PDF: %s", err.Error())
+	}
+	log.Println(string(output))
+	log.Println("PDF successfully generated")
 }
