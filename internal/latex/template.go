@@ -19,7 +19,7 @@ func TemplateGeneration(metaData model.Meta) templateGeneration {
 	folderPath := fmt.Sprintf("./template/%s/%s", metaData.Format, metaData.Version)
 	return templateGeneration{
 		folderPath:      folderPath,
-		templateName:    "template.tmpl",
+		templateName:    "template.tex",
 		outputLatexFile: fmt.Sprintf("%s/cv.tex", folderPath),
 	}
 }
