@@ -1,29 +1,26 @@
-
-name: 'Harvey Bal'
-
 meta:
-  format: 'FRESH@0.6.0'
-  version: '0.1'
+  format: 'modern'
+  version: '1.0'
 
 info:
+  name: 'Harvey Bal'
   label: 'Software/DevOps Engineer'
   brief: 'An articulate and analytical Engineer who has been able to adapt to working in different areas without compromising performance. I have worked on a variety of projects from simple to complex while working towards a tight deadline in an agile manner. Within my roles I have analysed, developed, tested and deployed onto different systems within a continuous integration/delivery environment. During my years I have proven my communication skills by effectively communicating with both the business and technical sides of the company. I have shown to have strong technical skills while performing as a backend developer and a willingness to learn new ones which is exhibited by my roles as a FullStack/DevOps Engineer.'
 
 contact:
-  phone: '###PHONE###'
-  email: '###EMAIL###'
+  phone: '09876543216'
+  email: 'email@email.com'
 
 social:
-  -
-    label: GitHub
-    network: GitHub
-    user: harvey1327
-    url: 'https://github.com/harvey1327'
-  -
-    label: Linkedin
-    network: Linkedin
-    user: Harvey
-    url: 'https://uk.linkedin.com/in/harvey-bal-337ba794'
+  links:
+    -
+      network: GitHub
+      user: harvey1327
+      url: 'https://github.com/harvey1327'
+    -
+      network: Linkedin
+      user: Harvey
+      url: 'https://uk.linkedin.com/in/harvey-bal-337ba794'
 
 employment:
   history:
@@ -112,8 +109,6 @@ employment:
       summary: 'I have worked as a Client Data Manager for a telefundraising company called Listen Ltd. I was in charge of setting up various campaigns for different clients and maintaining their integrity. I would produce ad-hoc queries and analysis when necessary and ensure a smooth running of the campaign.'
 
 education:
-  level: degree
-  degree: 'BSc(Hons)'
   history:
     -
       institution: 'University of Brighton'
@@ -180,8 +175,3 @@ skills:
       skills:
         - AWS
         - GCP
-
-references:
-  -
-    name: "Available upon request"
-    reference: "Available upon request"
