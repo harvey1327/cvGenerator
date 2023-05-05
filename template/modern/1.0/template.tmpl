@@ -16,9 +16,9 @@
       {\large \textbf{[[ .Info.Label ]]}} \par
       {\normalsize \href{[[ .Contact.Email ]]}{\raisebox{-0.18\baselineskip}{\includegraphics[height=1\baselineskip]{email.png}} [[ .Contact.Email ]]}} \par
       {\normalsize \raisebox{-0.18\baselineskip}{\includegraphics[height=1\baselineskip]{phone.png}} [[ .Contact.Phone ]]} \par
-      [[range $index, $element := .Social.Links]]
-        {\normalsize \href{[[ $element.Url ]]}{\raisebox{-0.18\baselineskip}{\includegraphics[height=1\baselineskip]{[[ $element.Network ]].png}} [[ $element.User ]]}} [[if $index]] \par [[else]] \qquad [[end]]
-      [[end]]
+    [[- range $index, $element := .Social.Links]]
+      {\normalsize \href{[[ $element.Url ]]}{\raisebox{-0.18\baselineskip}{\includegraphics[height=1\baselineskip]{[[ $element.Network ]].png}} [[ $element.User ]]}}[[if $index]] \par [[else]] \qquad [[end]]
+    [[- end]]
     \end{center}
     \vspace*{0.3in}
 

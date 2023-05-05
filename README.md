@@ -3,4 +3,4 @@
 sudo apt install latexmk
 sudo apt install texlive-fonts-extra
 
-pdflatex --output-directory=../otherdir /path/to/myfile.tex
+go run cmd/main.go; pdflatex --output-directory=./template/modern/1.0/ ./template/modern/1.0/cv.tex

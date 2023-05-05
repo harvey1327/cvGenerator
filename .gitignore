@@ -1,8 +1,2 @@
 vendor
-template/**/*.aux
-template/**/*.fdb_latexmk
-template/**/*.fls
-template/**/*.log
-template/**/*.out
-template/**/*.pdf
-template/**/*.gz
+template/**/cv.*
