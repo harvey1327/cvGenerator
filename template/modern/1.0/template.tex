@@ -28,19 +28,19 @@
 
     \vspace*{0.4in}
     {\large \raisebox{-0.05\baselineskip}{\includegraphics[height=0.8\baselineskip]{work.png}} \enspace \textbf{WORK EXPERIENCE}} \par
-  [[- range $index, $element := .Employment.History]]
-    {\normalsize \textbf{[[ $element.Position ]], [[ $element.Employer ]]}} \par
-    {\normalsize \textbf{[[ $element.Start ]] - [[ $element.End ]]}} \par
-    {\small [[ $element.Summary ]]} \par
-    [[- if ne (len $element.Highlights) 0 ]]
-      {\normalsize \textbf{HIGHLIGHTS}} \par
-      \begin{itemize}[label={\large\textbullet}]
-      [[- range $element.Highlights]]
-        \item \small [[ . ]]
-      [[- end]]
-      \end{itemize}
-    [[- end ]]
-  [[- end]]
+    [[- range $index, $element := .Employment.History]]
+      {\normalsize \textbf{[[ $element.Position ]], [[ $element.Employer ]]}} \par
+      {\normalsize \textbf{[[ $element.Start ]] - [[ $element.End ]]}} \par
+      {\small [[ $element.Summary ]]} \par
+      [[- if ne (len $element.Highlights) 0 ]]
+        {\normalsize \textbf{HIGHLIGHTS}} \par
+        \begin{itemize}[label={\large\textbullet}]
+        [[- range $element.Highlights]]
+          \item \small [[ . ]]
+        [[- end]]
+        \end{itemize}
+      [[- end ]]
+    [[- end]]
 
   \vspace*{0.4in}
   {\large \raisebox{-0.08\baselineskip}{\includegraphics[height=0.8\baselineskip]{skills.png}} \enspace \textbf{SKILLS}} \par
