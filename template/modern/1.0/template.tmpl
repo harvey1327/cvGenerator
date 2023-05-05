@@ -1,0 +1,29 @@
+\documentclass[10pt, a4paper]{article}
+\usepackage[margin=0.9in]{geometry}
+\usepackage[default]{opensans}
+\usepackage[hidelinks]{hyperref}
+\usepackage{parskip}
+\usepackage{enumitem}
+\usepackage{color,soul}
+\usepackage{graphicx}
+\graphicspath{ {./icon/} }
+\pagenumbering{gobble}
+
+\begin{document}
+
+    \begin{center}
+      {\LARGE \textbf{[[ .Info.Name ]]}} \par
+      {\large \textbf{[[ .Info.Label ]]}} \par
+      {\normalsize \href{[[ .Contact.Email ]]}{\raisebox{-0.18\baselineskip}{\includegraphics[height=1\baselineskip]{email.png}} [[ .Contact.Email ]]}} \par
+      {\normalsize \raisebox{-0.18\baselineskip}{\includegraphics[height=1\baselineskip]{phone.png}} [[ .Contact.Phone ]]} \par
+      [[range $index, $element := .Social.Links]]
+        {\normalsize \href{[[ $element.Url ]]}{\raisebox{-0.18\baselineskip}{\includegraphics[height=1\baselineskip]{[[ $element.Network ]].png}} [[ $element.User ]]}} [[if $index]] \par [[else]] \qquad [[end]]
+      [[end]]
+    \end{center}
+    \vspace*{0.3in}
+
+    \vspace*{0.4in}
+    {\large \raisebox{0\baselineskip}{\includegraphics[height=0.8\baselineskip]{user.png}} \enspace \textbf{ABOUT}} \par
+    {\small [[ .Info.Brief ]]} \par
+    
+\end{document}

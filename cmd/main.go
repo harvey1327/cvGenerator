@@ -20,9 +20,15 @@ func main() {
 	log.Printf("%+v", pageData)
 
 	// Convert struct into template
-	templatePath := fmt.Sprintf("./template/%s/%s/template.tex", pageData.Meta.Format, pageData.Meta.Version)
-	t := template.Must(template.New("test.template").Delims("[[", "]]").ParseFiles("test.template"))
-	err = t.Execute(os.Stdout, pageData)
+	templateName := "template.tmpl"
+	templatePath := fmt.Sprintf("./template/%s/%s/%s", pageData.Meta.Format, pageData.Meta.Version, templateName)
+	t := template.Must(template.New(templateName).Delims("[[", "]]").ParseFiles(templatePath))
+
+	output, err := os.Create(fmt.Sprintf("./template/%s/%s/cv.tex", pageData.Meta.Format, pageData.Meta.Version))
+	if err != nil {
+		panic(err)
+	}
+	err = t.Execute(output, pageData)
 	if err != nil {
 		panic(err)
 	}
