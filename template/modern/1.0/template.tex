@@ -51,8 +51,8 @@
   \vspace*{0.3in}
   {\normalsize \raisebox{-0.08\baselineskip}{\includegraphics[height=0.8\baselineskip]{skills.png}} \enspace \textbf{SKILLS}} \par
   [[- range $index, $element := .Skills.Sets]]
-    {\footnotesize \textbf{[[ $element.Name ]]}} \par
-    {[[- range $index, $element := $element.Skills]]
+    {\footnotesize \textbf{[[ $element.Name ]]}}
+    \\{[[- range $index, $element := $element.Skills]]
       \scriptsize \color{white}\colorbox{black}{\strut [[ . ]]}
     [[- end]]} \par
   [[- end]]
