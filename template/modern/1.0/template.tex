@@ -3,6 +3,7 @@
 \usepackage[default]{opensans}
 \usepackage[hidelinks]{hyperref}
 \usepackage{parskip}
+\usepackage{setspace}
 \usepackage{enumitem}
 \usepackage{color,soul}
 \usepackage{graphicx}
@@ -24,14 +25,19 @@
 
     \vspace*{0.3in}
     {\normalsize \raisebox{0\baselineskip}{\includegraphics[height=0.8\baselineskip]{user.png}} \enspace \textbf{ABOUT}} \par
+    \setstretch{0}
     {\scriptsize [[ .Info.Brief ]]} \par
+    \setstretch{1}
 
     \vspace*{0.3in}
     {\normalsize \raisebox{-0.05\baselineskip}{\includegraphics[height=0.8\baselineskip]{work.png}} \enspace \textbf{WORK EXPERIENCE}} \par
     [[- range $index, $element := .Employment.History]]
+      [[if ne ($index) 0]] \vspace*{0.1in} [[end]]
       {\footnotesize \textbf{[[ $element.Position ]], [[ $element.Employer ]]}}
       \\{\footnotesize \textbf{[[ $element.Start ]] - [[ $element.End ]]}} \par
+      \setstretch{0}
       {\scriptsize [[ $element.Summary ]]} \par
+      \setstretch{1}
       [[- if ne (len $element.Highlights) 0 ]]
         {\footnotesize \textbf{HIGHLIGHTS}} \par
         \begin{itemize}[label={\normalsize\textbullet}, noitemsep]
