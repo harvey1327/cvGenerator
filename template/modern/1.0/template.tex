@@ -41,5 +41,14 @@
       \end{itemize}
     [[- end ]]
   [[- end]]
+
+  \vspace*{0.4in}
+  {\large \raisebox{-0.08\baselineskip}{\includegraphics[height=0.8\baselineskip]{skills.png}} \enspace \textbf{SKILLS}} \par
+  [[- range $index, $element := .Skills.Sets]]
+    {\normalsize \textbf{[[ $element.Name ]]}} \par
+    {[[- range $index, $element := $element.Skills]]
+      \small \color{white}\colorbox{black}{\strut [[ . ]]}
+    [[- end]]} \par
+  [[- end]]
     
 \end{document}
