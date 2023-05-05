@@ -113,18 +113,18 @@ education:
     -
       institution: 'University of Brighton'
       area: 'Bsc(Hons) Mathematics and Computer Science'
-      studyType: Degree
+      study: Degree
       start: 2010-09
       end: 2013-07
     -
       institution: 'Windsor Boys School'
       area: 'Physics, Mathematics, Further Mathematics, Design Technology'
-      studyType: A-Level
+      study: A-Level
       start: 2008-09
       end: 2010-06
     -
       institution: 'Burnham Grammar School'
-      studyType: GCSE
+      study: GCSE
       start: 2002-09
       end: 2008-06
 

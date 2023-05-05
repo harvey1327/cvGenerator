@@ -7,7 +7,7 @@ type education struct {
 type educationHistory struct {
 	Institution string
 	Area        string
-	StudyType   string
+	Study       string
 	Start       string
 	End         string
 }

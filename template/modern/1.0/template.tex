@@ -56,5 +56,13 @@
       \scriptsize \color{white}\colorbox{black}{\strut [[ . ]]}
     [[- end]]} \par
   [[- end]]
+
+  \vspace*{0.4in}
+  {\normalsize \raisebox{-0.08\baselineskip}{\includegraphics[height=0.8\baselineskip]{education.png}} \enspace \textbf{EDUCATION}} \par
+  [[- range $index, $element := .Education.History]]
+    [[if ne ($index) 0]] \vspace*{0.1in} [[end]]
+    {\footnotesize \textbf{[[ $element.Study ]], [[ $element.Area ]] - [[ $element.Institution ]]}}
+    \\{\scriptsize [[ $element.Start ]] - [[ $element.End ]]} \par
+  [[- end]]
     
 \end{document}
