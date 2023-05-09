@@ -17,18 +17,16 @@
     \begin{center}
       {\Large \textbf{[[ .Info.Name ]]}} \par
       {\normalsize \textbf{[[ .Info.Label ]]}} \par
-      {\footnotesize \textbf{Email: } [[ .Contact.EmailDisplay ]]} \par
-      {\footnotesize \textbf{Phone: } [[ .Contact.Phone ]]} \par
+      {\footnotesize \textbf{Email: } [[ .Contact.EmailDisplay ]] \qquad \textbf{Phone: } [[ .Contact.Phone ]]} \par
     \end{center}
-    \vspace*{0.3in}
 
-    \vspace*{0.3in}
+    \vspace*{0.15in}
     {\normalsize \textbf{ABOUT}} \par
     \setstretch{0}
     {\scriptsize [[ .Info.Brief ]]} \par
     \setstretch{1}
 
-    \vspace*{0.3in}
+    \vspace*{0.15in}
     {\normalsize \textbf{WORK EXPERIENCE}} \par
     [[- range $index, $element := .Employment.History]]
       [[if ne ($index) 0]] \vspace*{0.1in} [[else]] \vspace*{0.05in} [[end]]
@@ -49,7 +47,7 @@
       \end{absolutelynopagebreak}
     [[- end]]
 
-  \vspace*{0.3in}
+  \vspace*{0.15in}
   \begin{absolutelynopagebreak}
     {\normalsize \textbf{SKILLS}} \par
     [[- range $index, $element := .Skills.Sets]]
@@ -60,7 +58,7 @@
     [[- end]]
   \end{absolutelynopagebreak}
 
-  \vspace*{0.3in}
+  \vspace*{0.15in}
   \begin{absolutelynopagebreak}
     {\normalsize \textbf{EDUCATION}} \par
     [[- range $index, $element := .Education.History]]
