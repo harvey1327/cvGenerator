@@ -35,4 +35,4 @@ FROM runner
     COPY --from=builder /build/template /template
 
     # Command to run
-    # ENTRYPOINT ["/main", "-email=","dockeremail","-phone=","dockerphone"]
+    ENTRYPOINT ./main -email="$EMAIL" -phone="$PHONE"
