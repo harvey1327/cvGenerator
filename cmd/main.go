@@ -16,7 +16,7 @@ func main() {
 	// Parse yml into struct
 	log.Println("Converting yml into struct")
 	var pageData model.PageData
-	err := yml.PopulateStructWithYML("./resume.yml", &pageData)
+	err := yml.PopulateStructWithYML("./resume/resume.yml", &pageData)
 	if err != nil {
 		log.Fatalf("error converting yml into struct: %s", err.Error())
 	}
