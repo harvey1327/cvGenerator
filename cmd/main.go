@@ -3,12 +3,16 @@ package main
 import (
 	"log"
 
+	"github.com/harvey1327/resumehack/internal/flags"
 	"github.com/harvey1327/resumehack/internal/latex"
 	"github.com/harvey1327/resumehack/internal/model"
 	"github.com/harvey1327/resumehack/internal/yml"
 )
 
 func main() {
+	//accept commandline flags
+	arguments := flags.GetFlags()
+
 	// Parse yml into struct
 	log.Println("Converting yml into struct")
 	var pageData model.PageData
@@ -17,6 +21,9 @@ func main() {
 		log.Fatalf("error converting yml into struct: %s", err.Error())
 	}
 	log.Println("yml successfully converted")
+
+	log.Println("applying arguments")
+	arguments.Apply(&pageData)
 
 	// Convert struct into latex template
 	log.Println("Starting template generation")

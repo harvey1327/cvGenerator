@@ -5,6 +5,9 @@
 \usepackage{setspace}
 \usepackage{enumitem}
 \usepackage{xcolor,soul}
+\usepackage[T1]{fontenc}
+\newcommand{\startunderscoreletter}{\catcode`_ 12\relax}
+\newcommand{\stopunderscoreletter}{\catcode`_ 8\relax}
 \pagenumbering{gobble}
 \newenvironment{absolutelynopagebreak}
   {\par\nobreak\vfil\penalty0\vfilneg
@@ -13,11 +16,12 @@
    \prevdepth=\tpd}
 
 \begin{document}
+\startunderscoreletter
 
     \begin{center}
       {\Large \textbf{[[ .Info.Name ]]}} \par
       {\normalsize \textbf{[[ .Info.Label ]]}} \par
-      {\footnotesize \textbf{Email: } [[ .Contact.EmailDisplay ]] \qquad \textbf{Phone: } [[ .Contact.Phone ]]} \par
+      {\footnotesize \textbf{Email: } [[ .Contact.Email ]] \qquad \textbf{Phone: } [[ .Contact.Phone ]]} \par
     \end{center}
 
     \vspace*{0.15in}
@@ -65,5 +69,6 @@
       \\{\scriptsize [[ $element.Start ]] - [[ $element.End ]]} \par
     [[- end]]
   \end{absolutelynopagebreak}
-    
+
+\stopunderscoreletter
 \end{document}
