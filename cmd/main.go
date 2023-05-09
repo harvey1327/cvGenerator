@@ -3,15 +3,15 @@ package main
 import (
 	"log"
 
-	"github.com/harvey1327/resumehack/internal/flags"
 	"github.com/harvey1327/resumehack/internal/latex"
 	"github.com/harvey1327/resumehack/internal/model"
+	"github.com/harvey1327/resumehack/internal/sensativedata"
 	"github.com/harvey1327/resumehack/internal/yml"
 )
 
 func main() {
 	//accept commandline flags
-	arguments := flags.GetFlags()
+	arguments := sensativedata.GetData()
 
 	// Parse yml into struct
 	log.Println("Converting yml into struct")

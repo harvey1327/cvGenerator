@@ -1,4 +1,4 @@
-package flags
+package sensativedata
 
 import (
 	"flag"
@@ -6,22 +6,22 @@ import (
 	"github.com/harvey1327/resumehack/internal/model"
 )
 
-type flags struct {
+type data struct {
 	email string
 	phone string
 }
 
-func GetFlags() flags {
+func GetData() data {
 	email := flag.String("email", "", "an email as a string")
 	phone := flag.String("phone", "", "a phone number as a string")
 	flag.Parse()
-	return flags{
+	return data{
 		email: *email,
 		phone: *phone,
 	}
 }
 
-func (f flags) Apply(pageData *model.PageData) {
+func (f data) Apply(pageData *model.PageData) {
 	if f.email != "" {
 		pageData.Contact.Email = f.email
 	}
