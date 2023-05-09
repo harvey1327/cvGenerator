@@ -8,7 +8,7 @@ info:
   brief: 'An articulate and analytical Engineer who has been able to adapt to working in different areas without compromising performance. I have worked on a variety of projects from simple to complex while working towards a tight deadline in an agile manner. Within my roles I have analysed, developed, tested and deployed onto different systems within a continuous integration/delivery environment. During my years I have proven my communication skills by effectively communicating with both the business and technical sides of the company. I have shown to have strong technical skills while performing as a backend developer and a willingness to learn new ones which is exhibited by my roles as a FullStack/DevOps Engineer.'
 
 contact:
-  phone: '09876543216'
+  phone: '01234567890'
   email: 'email_something@email.com'
 
 social:
@@ -26,8 +26,8 @@ employment:
   history:
     -
       employer: 'Fujitsu'
-      position: 'Application Developer'
-      start: 2022-07
+      position: 'Software Engineer'
+      start: 07/2022
       summary: 'At Fujitsu I have been part of multiple teams which have focused on developing a product for the long term and providing services to our clients for the short term. The long term project was to develop a contactless ticketing system mobile application to allow customers to travel via public transport. This was developed using Java and the Spring Boot framework, it is based on an Event Driven microservice architecture utilising RabbitMQ, alongside this the front end is written in typescript using the Angular framework'
       highlights:
         - 'Improved the sprint planning process by streamlining the scope of tickets and how they are created'
@@ -37,9 +37,9 @@ employment:
         - 'Collaborated with developers and the client to understand how to develop CI/CD pipelines during a migration'
     -
       employer: 'Dynium Robot'
-      position: 'Senior Backend/DevOps Engineer'
-      start: 2020-04
-      end: 2022-06
+      position: 'Backend/DevOps Engineer'
+      start: 04/2020
+      end: 06/2022
       summary: 'My role here was to design and develop the analytics and front end services from the ground up. The goal was to have a platform where large amounts of data could be ingested and processed with various metrics being calculated and shown on a dashboard to a user. The platform was designed on a microservices architecture hosted on GCP'
       highlights:
         - 'Worked with a variety of modern technologies: Go, Typescript, Node, React, GraphQL, gRPC, Docker, Google Cloud Platform'
@@ -51,8 +51,8 @@ employment:
     -
       employer: 'BMI'
       position: 'FullStack DevOps Engineer'
-      start: 2019-10
-      end: 2020-04
+      start: 10/2019
+      end: 04/2020
       summary: 'At BMI I was part of a team that worked for one of its subsidiaries MeinDach. We were tasked to create a platform where both its business partners and customers were able to interact with each other to offer and accept services. Our platform was based on a microservices architecture hosted on GCP, the back end was in kotlin and the front end was in React'
       highlights:
         - 'Worked with a variety of technology: Kotlin, Typescript, Gradle, Maven, NPM, SpringBoot, React, GCP, Docker, Kubernetes, MySQL, Redis, Fluxcd, helm. I was new to both Kotlin and Typescript and manged to pick up both languages easily and use them competently'
@@ -63,8 +63,8 @@ employment:
     -
       employer: 'PA Consulting'
       position: 'Software/DevOps Engineer'
-      start: 2018-04
-      end: 2019-09
+      start: 04/2018
+      end: 09/2019
       summary: 'I worked as a Software and DevOps Engineer for PA Consulting, during my time there I worked with 2 clients. The first client I worked for was Rentokil Initial, there I was part of a team which actively developed a RESTful mobile API to deploy onto GCP. The second client was in the Public Sector to help maintain and further develop their CI/CD pipeline on AWS, part of this role was to also further develop an in-house metrics dashboard'
       highlights:
         - 'Rentokil Initial: Develop an API written in Java to be consumed by an app on a mobile device. The app is deployed with Google App Engine on the Google Cloud Platform.'
@@ -78,8 +78,8 @@ employment:
     -
       employer: Capgemini
       position: 'Software/DevOps Engineer'
-      start: 2017-01
-      end: 2018-04
+      start: 01/2017
+      end: 04/2018
       summary: 'While at Capgemini I was part of an agile team within the Applied Innovation Exchange (AIE), my role was to develop a proof of concept based on emerging tech to demo in front of clients. During the weekly sprints I was able to demonstrate my knowledge and technical skills for developing new software by picking up new technology and hitting the ground the running. For my first client I was placed within the Public Sector as a DevOps Engineer, my primary focus was to migrate the current infrastructure to AWS and improve upon the release cycle. With having minimal exposure to infrastructure, I was able to pick up the tech stack quickly and effectively.'
       highlights:
         - 'AIE: Developed a feedback system utilising Intel''s depth sensing camera which allows a user to provide positive or negative feedback based on hand recognition. The application was built in Java using Swing as the GUI.'
@@ -91,8 +91,8 @@ employment:
     -
       employer: 'FDM Group'
       position: 'Java Developer'
-      start: 2014-04
-      end: 2017-01
+      start: 04/2014
+      end: 01/2017
       summary: 'During my time there I was trained in: Java, Spring MVC, Java EE, Hibernate, Maven, Unix, SQL. The project I worked on was at British Airways, my role was to optimise the website by introducing live bug fixes and improvements into its release cycle.'
       highlights:
         - 'Dealt with a large variation of issues which occurred across all areas of ba.com including its various subsystems, including those used by Iberia.'
@@ -104,8 +104,8 @@ employment:
     -
       employer: 'Listen Ltd'
       position: 'Client Data Manager'
-      start: 2013-09
-      end: 2014-04
+      start: 09/2013
+      end: 04/2014
       summary: 'I have worked as a Client Data Manager for a telefundraising company called Listen Ltd. I was in charge of setting up various campaigns for different clients and maintaining their integrity. I would produce ad-hoc queries and analysis when necessary and ensure a smooth running of the campaign.'
 
 education:
