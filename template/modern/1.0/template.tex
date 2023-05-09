@@ -4,7 +4,7 @@
 \usepackage{parskip}
 \usepackage{setspace}
 \usepackage{enumitem}
-\usepackage{color,soul}
+\usepackage{xcolor,soul}
 \pagenumbering{gobble}
 \newenvironment{absolutelynopagebreak}
   {\par\nobreak\vfil\penalty0\vfilneg
@@ -32,12 +32,11 @@
       [[if ne ($index) 0]] \vspace*{0.1in} [[else]] \vspace*{0.05in} [[end]]
       \begin{absolutelynopagebreak}
         {\footnotesize \textbf{[[ $element.Position ]], [[ $element.Employer ]]}}
-        \\{\footnotesize \textbf{[[ $element.Start ]] - [[ $element.End ]]}} \par
+        \\{\footnotesize \color{gray} \textbf{[[ $element.Start ]] - [[ $element.End ]]}} \par
         \setstretch{0}
         {\scriptsize [[ $element.Summary ]]} \par
         \setstretch{1}
         [[- if ne (len $element.Highlights) 0 ]]
-          {\footnotesize \textbf{Highlights}} \par
           \begin{itemize}[label={\normalsize\textbullet}, noitemsep]
           [[- range $element.Highlights]]
             \item \scriptsize [[ . ]]
