@@ -1,13 +1,10 @@
 \documentclass[10pt, a4paper]{article}
 \usepackage[margin=0.9in]{geometry}
 \usepackage[default]{opensans}
-\usepackage[hidelinks]{hyperref}
 \usepackage{parskip}
 \usepackage{setspace}
 \usepackage{enumitem}
 \usepackage{color,soul}
-\usepackage{graphicx}
-\graphicspath{ {./icon/} }
 \pagenumbering{gobble}
 \newenvironment{absolutelynopagebreak}
   {\par\nobreak\vfil\penalty0\vfilneg
@@ -20,22 +17,19 @@
     \begin{center}
       {\Large \textbf{[[ .Info.Name ]]}} \par
       {\normalsize \textbf{[[ .Info.Label ]]}} \par
-      {\footnotesize \href{[[ .Contact.Email ]]}{\raisebox{-0.18\baselineskip}{\includegraphics[height=1\baselineskip]{email.png}} [[ .Contact.EmailDisplay ]]}} \par
-      {\footnotesize \raisebox{-0.18\baselineskip}{\includegraphics[height=1\baselineskip]{phone.png}} [[ .Contact.Phone ]]} \par
-    [[- range $index, $element := .Social.Links]]
-      {\footnotesize \href{[[ $element.Url ]]}{\raisebox{-0.18\baselineskip}{\includegraphics[height=1\baselineskip]{[[ $element.Network ]].png}} [[ $element.User ]]}}[[if $index]] \par [[else]] \qquad [[end]]
-    [[- end]]
+      {\footnotesize \textbf{Email: } [[ .Contact.EmailDisplay ]]} \par
+      {\footnotesize \textbf{Phone: } [[ .Contact.Phone ]]} \par
     \end{center}
     \vspace*{0.3in}
 
     \vspace*{0.3in}
-    {\normalsize \raisebox{0\baselineskip}{\includegraphics[height=0.8\baselineskip]{user.png}} \enspace \textbf{ABOUT}} \par
+    {\normalsize \textbf{ABOUT}} \par
     \setstretch{0}
     {\scriptsize [[ .Info.Brief ]]} \par
     \setstretch{1}
 
     \vspace*{0.3in}
-    {\normalsize \raisebox{-0.05\baselineskip}{\includegraphics[height=0.8\baselineskip]{work.png}} \enspace \textbf{WORK EXPERIENCE}} \par
+    {\normalsize \textbf{WORK EXPERIENCE}} \par
     [[- range $index, $element := .Employment.History]]
       [[if ne ($index) 0]] \vspace*{0.1in} [[end]]
       \begin{absolutelynopagebreak}
@@ -55,9 +49,9 @@
       \end{absolutelynopagebreak}
     [[- end]]
 
+  \vspace*{0.3in}
   \begin{absolutelynopagebreak}
-    \vspace*{0.3in}
-    {\normalsize \raisebox{-0.08\baselineskip}{\includegraphics[height=0.8\baselineskip]{skills.png}} \enspace \textbf{SKILLS}} \par
+    {\normalsize \textbf{SKILLS}} \par
     [[- range $index, $element := .Skills.Sets]]
       {\footnotesize \textbf{[[ $element.Name ]]}}
       \\{[[- range $index, $element := $element.Skills]]
@@ -66,9 +60,9 @@
     [[- end]]
   \end{absolutelynopagebreak}
 
+  \vspace*{0.3in}
   \begin{absolutelynopagebreak}
-    \vspace*{0.4in}
-    {\normalsize \raisebox{-0.08\baselineskip}{\includegraphics[height=0.8\baselineskip]{education.png}} \enspace \textbf{EDUCATION}} \par
+    {\normalsize \textbf{EDUCATION}} \par
     [[- range $index, $element := .Education.History]]
       [[if ne ($index) 0]] \vspace*{0.1in} [[end]]
       {\footnotesize \textbf{[[ $element.Study ]], [[ $element.Area ]] - [[ $element.Institution ]]}}
