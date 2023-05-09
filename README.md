@@ -1,9 +1,3 @@
 # resumeHack
 
-Resume is stored in `resume/resume.yml`, run `./start.sh -e <email> -p <phone> -c <city> -r <region> -t <theme>` to generate resume
-
-Theme is of a jsonresume-theme, currently used cora
-
-Format for resume.json is based on https://github.com/fresh-standard/FRESCA and https://jsonresume.org/schema/
-
-Themes can be taken from https://github.com/fresh-standard/fresh-themes and https://www.npmjs.com/search?q=jsonresume-theme
+Run using `./start.sh -e my_personal_email@email.com -p 1234567890`

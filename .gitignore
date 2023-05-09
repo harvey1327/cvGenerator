@@ -1,4 +1,3 @@
-resume/*
-!resume/resume.yml
-
-.idea/
+vendor
+template/**/cv.*
+resume/cv.*

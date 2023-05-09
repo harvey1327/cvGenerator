@@ -1,0 +1,74 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[margin=0.9in]{geometry}
+\usepackage[default]{opensans}
+\usepackage{parskip}
+\usepackage{setspace}
+\usepackage{enumitem}
+\usepackage{xcolor,soul}
+\usepackage[T1]{fontenc}
+\newcommand{\startunderscoreletter}{\catcode`_ 12\relax}
+\newcommand{\stopunderscoreletter}{\catcode`_ 8\relax}
+\pagenumbering{gobble}
+\newenvironment{absolutelynopagebreak}
+  {\par\nobreak\vfil\penalty0\vfilneg
+   \vtop\bgroup}
+  {\par\xdef\tpd{\the\prevdepth}\egroup
+   \prevdepth=\tpd}
+
+\begin{document}
+\startunderscoreletter
+
+    \begin{center}
+      {\Large \textbf{[[ .Info.Name ]]}} \par
+      {\normalsize \textbf{[[ .Info.Label ]]}} \par
+      {\footnotesize \textbf{Email: } [[ .Contact.Email ]] \qquad \textbf{Phone: } [[ .Contact.Phone ]]} \par
+    \end{center}
+
+    \vspace*{0.15in}
+    {\normalsize \textbf{ABOUT}} \par
+    \setstretch{0.25}
+    {\scriptsize [[ .Info.Brief ]]} \par
+    \setstretch{1}
+
+    \vspace*{0.15in}
+    {\normalsize \textbf{WORK EXPERIENCE}} \par
+    [[- range $index, $element := .Employment.History]]
+      [[if ne ($index) 0]] \vspace*{0.1in} [[else]] \vspace*{0.05in} [[end]]
+      \begin{absolutelynopagebreak}
+        {\footnotesize \textbf{[[ $element.Position ]], [[ $element.Employer ]]}}
+        \\{\footnotesize \color{gray} \textbf{[[ $element.Start ]] - [[ $element.End ]]}} \par
+        \setstretch{0.25}
+        {\scriptsize [[ $element.Summary ]]} \par
+        \setstretch{1}
+        [[- if ne (len $element.Highlights) 0 ]]
+          \begin{itemize}[label={\normalsize\textbullet}, noitemsep]
+          [[- range $element.Highlights]]
+            \item \scriptsize [[ . ]]
+          [[- end]]
+          \end{itemize}
+        [[- end ]]
+      \end{absolutelynopagebreak}
+    [[- end]]
+
+  \vspace*{0.15in}
+  \begin{absolutelynopagebreak}
+    {\normalsize \textbf{SKILLS}} \par
+    [[- range $index, $element := .Skills.Sets]]
+      {\footnotesize \textbf{[[ $element.Name ]]}}
+      \\{[[- range $index, $element := $element.Skills]]
+        \scriptsize \color{white}\colorbox{black}{\strut [[ . ]]}
+      [[- end]]} \par
+    [[- end]]
+  \end{absolutelynopagebreak}
+
+  \vspace*{0.15in}
+  \begin{absolutelynopagebreak}
+    {\normalsize \textbf{EDUCATION}} \par
+    [[- range $index, $element := .Education.History]]
+      {\footnotesize \textbf{[[ $element.Study ]], [[ $element.Area ]] - [[ $element.Institution ]]}}
+      \\{\scriptsize [[ $element.Start ]] - [[ $element.End ]]} \par
+    [[- end]]
+  \end{absolutelynopagebreak}
+
+\stopunderscoreletter
+\end{document}
