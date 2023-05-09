@@ -39,9 +39,5 @@ func (tg templateGeneration) Generate(pageData model.PageData) error {
 
 func (tg templateGeneration) ConvertToPdf() ([]byte, error) {
 	cmd := exec.Command("pdflatex", fmt.Sprintf("--output-directory=%s", tg.folderPath), tg.outputLatexFile)
-	out, err := cmd.Output()
-	if err != nil {
-		return nil, err
-	}
-	return out, nil
+	return cmd.Output()
 }

@@ -31,7 +31,8 @@ func main() {
 	log.Println("Starting PDF generation")
 	output, err := ltx.ConvertToPdf()
 	if err != nil {
-		log.Fatalf("error generating PDF: %s", err.Error())
+		log.Fatalf("error generating PDF, please read log: %s", err.Error())
+		log.Println(string(output))
 	}
 	log.Println(string(output))
 	log.Println("PDF successfully generated")
