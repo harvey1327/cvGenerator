@@ -57,7 +57,7 @@ employment:
       highlights:
         - 'Worked with a variety of technology: Kotlin, Typescript, Gradle, Maven, NPM, SpringBoot, React, GCP, Docker, Kubernetes, MySQL, Redis, Fluxcd, helm. I was new to both Kotlin and Typescript and manged to pick up both languages easily and use them competently'
         - 'Took over and lead the development of our new Mobile app built using React. I learnt how to use React in a short time and understand how a mobile app was to be written and structured, we designed the app to use functional components and hooks instead of class components'
-        - 'The team inherited a fair amount of code written by various contractors in various styles, because of this we followed a principle where we would refactor code when necessary to align it with our new style and make sure we never reduced the code coverage'
+        - 'The team inherited a large amount of code written by various contractors in various styles, because of this we followed a principle where we would refactor code when necessary to align it with our new style and make sure we never reduced the code coverage'
         - 'Further developed our back end apis using TDD to ensure we followed good code practices, while doing this I learnt how to write tests using KotlinTest and follow a more functional programming paradigm'
         - 'Maintained and helped to improve how our infrastructure was created and handled, including our CI /CD process'
     -
