@@ -26,12 +26,16 @@
 
     \vspace*{0.15in}
     {\normalsize \textbf{ABOUT}} \par
+    \vspace*{0.1in}
+    \hrule
     \setstretch{0.25}
     {\scriptsize [[ .Info.Brief ]]} \par
     \setstretch{1}
 
     \vspace*{0.15in}
     {\normalsize \textbf{WORK EXPERIENCE}} \par
+    \vspace*{0.1in}
+    \hrule
     [[- range $index, $element := .Employment.History]]
       [[if ne ($index) 0]] \vspace*{0.1in} [[else]] \vspace*{0.05in} [[end]]
       \begin{absolutelynopagebreak}
@@ -53,6 +57,8 @@
   \vspace*{0.15in}
   \begin{absolutelynopagebreak}
     {\normalsize \textbf{SKILLS}} \par
+    \vspace*{0.1in}
+    \hrule
     [[- range $index, $element := .Skills.Sets]]
       {\footnotesize \textbf{[[ $element.Name ]]}}
       \\{[[- range $index, $element := $element.Skills]]
@@ -64,6 +70,8 @@
   \vspace*{0.15in}
   \begin{absolutelynopagebreak}
     {\normalsize \textbf{EDUCATION}} \par
+    \vspace*{0.1in}
+    \hrule
     [[- range $index, $element := .Education.History]]
       {\footnotesize \textbf{[[ $element.Study ]], [[ $element.Area ]] - [[ $element.Institution ]]}}
       \\{\scriptsize [[ $element.Start ]] - [[ $element.End ]]} \par
