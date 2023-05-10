@@ -11,6 +11,7 @@ type employmentHistory struct {
 	End        string
 	Summary    string
 	Highlights []string
+	Short      bool
 }
 
 func (eh *employmentHistory) UnmarshalYAML(unmarshal func(interface{}) error) error {

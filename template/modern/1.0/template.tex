@@ -40,7 +40,7 @@
         \setstretch{0.25}
         {\scriptsize [[ $element.Summary ]]} \par
         \setstretch{1}
-        [[- if ne (len $element.Highlights) 0 ]]
+        [[- if and (ne (len $element.Highlights) 0) (not $element.Short) ]]
           \begin{itemize}[label={\normalsize\textbullet}, noitemsep]
           [[- range $element.Highlights]]
             \item \scriptsize [[ . ]]
