@@ -17,5 +17,5 @@ if [ -z $EXIST ]; then
 echo '--------Building Image generator:latest'
 	docker build . -t generator:latest
 fi
-docker run --rm -v $PWD/resume:/resume -e "PHONE=${PHONE}" -e "EMAIL=${EMAIL}" generator:latest
+docker run --rm -v $PWD/resume:/resume -v $PWD/template:/template -e "PHONE=${PHONE}" -e "EMAIL=${EMAIL}" generator:latest
 echo '--------Ending generation process'

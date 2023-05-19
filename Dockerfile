@@ -32,7 +32,6 @@ FROM golang:1.19.1-alpine3.16 AS builder
 FROM runner
 
     COPY --from=builder /build/main /
-    COPY --from=builder /build/template /template
 
     # Command to run
     ENTRYPOINT ./main -email="$EMAIL" -phone="$PHONE"
