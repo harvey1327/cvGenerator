@@ -5,7 +5,7 @@ meta:
 info:
   name: 'Harvey Bal'
   label: 'Software/DevOps Engineer'
-  brief: 'An articulate and analytical Engineer who has been able to adapt to working in different areas without compromising performance. I have worked on a variety of projects from simple to complex while working towards a tight deadline in an agile manner. Within my roles I have analysed, developed, tested and deployed onto different systems within a continuous integration/delivery environment. During my years I have proven my communication skills by effectively communicating with both the business and technical sides of the company. I have shown to have strong technical skills while performing as a backend developer and a willingness to learn new ones which is exhibited by my roles as a FullStack/DevOps Engineer.'
+  brief: 'An articulate and analytical Engineer who has been able to adapt to working in different areas without compromising performance. A well rounded individual who has strong technical skills as a backend developer and a willingness to learn which is exhibited by my roles as a FullStack/DevOps Engineer'
 
 contact:
   phone: '01234567890'
@@ -151,17 +151,14 @@ skills:
         - Gitlab
         - Artifactory
         - Jenkins
-        - MongoCharts
         - RabbitMQ
     -
       name: System
       skills:
         - Docker
-        - Ansible
         - Linux
         - 'CI/CD Pipelines'
         - Kubernetes
-        - Vagrant
         - Git
     -
       name: Languages
