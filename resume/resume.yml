@@ -28,7 +28,7 @@ employment:
       employer: 'Fujitsu'
       position: 'Software Engineer'
       start: 07/2022
-      summary: 'At Fujitsu I have been part of multiple teams which have focused on developing a product for the long term and providing services to our clients for the short term. The long term project was to develop a contactless ticketing system mobile application to allow customers to travel via public transport. This was developed using Java and the Spring Boot framework, it is based on an Event Driven microservice architecture utilising RabbitMQ, alongside this the front end is written in typescript using the Angular framework'
+      summary: 'At Fujitsu I have been part of multiple teams which have focused on developing a product for the long term and providing services to our clients for the short term. The long term project was to develop a contactless ticketing system mobile application to allow customers to travel via public transport. This was developed using Java and the Spring Boot framework, it is based on an event driven microservice architecture utilising RabbitMQ, alongside this the front end is written in typescript using the Angular framework'
       highlights:
         - 'Improved the sprint planning process by streamlining the scope of tickets and how they are created'
         - 'Collaborated with other senior engineers to push forward the mentality to tackle tech debt as we implement new features'
@@ -40,7 +40,7 @@ employment:
       position: 'Backend/DevOps Engineer'
       start: 04/2020
       end: 06/2022
-      summary: 'My role here was to design and develop the analytics and front end services from the ground up. The goal was to have a platform where large amounts of data could be ingested and processed with various metrics being calculated and shown on a dashboard to a user. The platform was designed on a microservices architecture hosted on GCP'
+      summary: 'My role here was to design and develop the analytics and front end services from the ground up. The goal was to have a platform where large amounts of data could be ingested and processed with various metrics being calculated and shown on a dashboard to a user. The platform was designed on a microservices event driven architecture hosted on GCP'
       highlights:
         - 'Worked with a variety of modern technologies: Go, Typescript, Node, React, GraphQL, gRPC, Docker, Google Cloud Platform'
         - 'Designed and developed the microservice architecture the platform is based on. Using a combination of Go built services using gRPC for service-service communication and a Node GraphQL service to communicate to our front end in React'
