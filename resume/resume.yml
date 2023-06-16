@@ -175,3 +175,6 @@ skills:
       skills:
         - AWS
         - GCP
+
+certificates:
+  - Microsoft Azure Fundamentals
