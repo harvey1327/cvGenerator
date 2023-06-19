@@ -8,5 +8,5 @@ type PageData struct {
 	Employment   employment
 	Education    education
 	Skills       skills
-	Certificates certificate
+	Certificates certificates
 }

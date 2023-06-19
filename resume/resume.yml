@@ -125,11 +125,6 @@ education:
       study: A-Level
       start: 2008-09
       end: 2010-06
-    -
-      institution: 'Burnham Grammar School'
-      study: GCSE
-      start: 2002-09
-      end: 2008-06
 
 skills:
   sets:
@@ -177,4 +172,6 @@ skills:
         - GCP
 
 certificates:
-  - Microsoft Azure Fundamentals
+  certs:
+    -
+      name: Microsoft Azure Fundamentals
