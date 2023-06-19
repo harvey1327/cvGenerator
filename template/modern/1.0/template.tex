@@ -78,5 +78,15 @@
     [[- end]]
   \end{absolutelynopagebreak}
 
+  \vspace*{0.15in}
+  \begin{absolutelynopagebreak}
+    {\normalsize \textbf{CERTIFICATES}} \par
+    \vspace*{0.1in}
+    \hrule
+    [[- range $index, $element := .Certificates.Certs]]
+      \scriptsize [[ $element.Name ]] \par
+    [[- end]]
+  \end{absolutelynopagebreak}
+
 \stopunderscoreletter
 \end{document}
