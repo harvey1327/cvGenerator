@@ -78,15 +78,17 @@
     [[- end]]
   \end{absolutelynopagebreak}
 
-  \vspace*{0.15in}
-  \begin{absolutelynopagebreak}
-    {\normalsize \textbf{CERTIFICATES}} \par
-    \vspace*{0.1in}
-    \hrule
-    [[- range $index, $element := .Certificates.Certs]]
-      \scriptsize [[ $element.Name ]] \par
-    [[- end]]
-  \end{absolutelynopagebreak}
+  [[- if (ne (len .Certificates.Certs) 0) ]]
+    \vspace*{0.15in}
+    \begin{absolutelynopagebreak}
+      {\normalsize \textbf{CERTIFICATES}} \par
+      \vspace*{0.1in}
+      \hrule
+      [[- range $index, $element := .Certificates.Certs]]
+        \scriptsize [[ $element.Name ]] \par
+      [[- end]]
+    \end{absolutelynopagebreak}
+  [[end]]
 
 \stopunderscoreletter
 \end{document}
