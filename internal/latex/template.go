@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"os"
 	"os/exec"
+	"strings"
 	"text/template"
 
 	"github.com/harvey1327/resumehack/internal/model"
@@ -15,12 +16,12 @@ type templateGeneration struct {
 	outputLatexFile string
 }
 
-func TemplateGeneration(metaData model.Meta) templateGeneration {
+func TemplateGeneration(metaData model.Meta, name string) templateGeneration {
 	folderPath := fmt.Sprintf("./template/%s/%s", metaData.Format, metaData.Version)
 	return templateGeneration{
 		folderPath:      folderPath,
 		templateName:    "template.tex",
-		outputLatexFile: fmt.Sprintf("%s/cv.tex", folderPath),
+		outputLatexFile: fmt.Sprintf("%s/%s_CV.tex", folderPath, strings.ReplaceAll(name, " ", "_")),
 	}
 }
 

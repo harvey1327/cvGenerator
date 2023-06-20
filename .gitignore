@@ -1,3 +1,6 @@
 vendor
-template/**/cv.*
-resume/cv.*
+template/**/*.tex
+!template/**/template.tex
+resume/*.aux
+resume/*.log
+resume/*.pdf

@@ -31,7 +31,7 @@ func main() {
 
 	// Convert struct into latex template
 	log.Println("Starting template generation")
-	ltx := latex.TemplateGeneration(pageData.Meta)
+	ltx := latex.TemplateGeneration(pageData.Meta, pageData.Info.Name)
 	err = ltx.Generate(pageData)
 	if err != nil {
 		log.Fatalf("error generating latex template: %s", err.Error())
